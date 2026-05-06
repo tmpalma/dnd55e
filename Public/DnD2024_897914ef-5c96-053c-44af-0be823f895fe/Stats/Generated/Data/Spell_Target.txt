@@ -1164,6 +1164,12 @@ using "Target_TrueStrike_Melee"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon+LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);"
 data "Icon" "Action_DivineStrike_Melee"
 
+new entry "Target_TrueStrike_CompassSpear"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TrueStrike_Radiant"
+data "SpellContainerID" ""
+
 new entry "Target___DIVINATION__SLEVEL_1__"
 type "SpellData"
 data "SpellType" "Target"

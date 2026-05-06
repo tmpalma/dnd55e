@@ -1344,6 +1344,14 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Melee" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39815ba5-9341-48b0-bc21-23f69835662c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueStrike_CompassSpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a58aeff1-e8a9-4cdd-b2d2-be8ce02c01ea" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="426cb6ad-7ec8-45fd-8e97-a6ee5aad5cc6" />

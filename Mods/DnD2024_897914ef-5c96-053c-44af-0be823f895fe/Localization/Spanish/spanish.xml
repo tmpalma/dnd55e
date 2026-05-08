@@ -2419,7 +2419,7 @@ Al nivel 9 de Pistolero, tus tiradas de ataque con armas a Distancia anotan un G
   <content contentuid="hc7fb5801ga410g0b94g4884g81b249ee370c" version="1">Ascendencia Gigante</content>
   <content contentuid="h3f95591ag3b57ge6b7g67dag6b78011d07e5" version="1">Descienes de Gigantes. Elige uno de los siguientes beneficios — un don sobrenatural de tu ascendencia; puedes usar el beneficio elegido un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando completas un Descanso Largo:</content>
   <content contentuid="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="1">Raza: Goliath</content>
-  <content contentuid="h35af86fcg2186gfbc2g672fgcbee62e25113" version="2">Los Goliath tienen Ascendencia Gigante, lo que les permite elegir un don sobrenatural vinculado a un tipo de gigante. Esta capacidad puede usarse un número de veces igual a su Bonificador de Competencia y se restaura completamente tras un Descanso Largo. Según la ascendencia elegida, pueden teletransportarse como Acción Adicional, infligir daño elemental adicional al impactar, reducir la Velocidad de un objetivo, derribar a un objetivo, reducir el daño entrante como Reacción, o contraatacar con daño de Trueno cuando son dañados.
+  <content contentuid="h35af86fcg2186gfbc2g672fgcbee62e25113" version="2">Los Goliath tienen Ascendencia Gigante, lo que les permite elegir un don sobrenatural vinculado a un tipo de gigante. Esta capacidad puede usarse un número de veces igual a su Bonificador de Competencia y se restaura completamente tras un Descanso Largo. Según la ascendencia elegida, pueden teletransportarse como Acción Adicional, infligir daño elemental adicional al impactar, reducir la Velocidad de un objetivo, derribar a un objetivo, reducir el daño entrante como Reacción, o contraatacar con daño de Trueno cuando son dañados. Tu &lt;LSTag Tooltip="CarryWeight"&gt;capacidad de carga&lt;/LSTag&gt; aumenta en un cuarto.
 
 Al nivel 5 de personaje, obtienen Forma Grande. Como Acción Adicional, pueden crecer a tamaño Grande durante 10 minutos si el espacio lo permite.</content>
   <content contentuid="h423aa2bdgc981gde37g9921g76d99865cb47" version="1">Excursión de la Nube</content>
@@ -3424,4 +3424,6 @@ Hasta que completes tu próximo descanso largo, tú y tus aliados obtenéis un b
   <content contentuid="hffb15f0dg8d46g8ce2g4665g6ab0e628d277" version="1">Sentidos Agudos</content>
   <content contentuid="hff4e6b44g07dbg7d46g1dfbg11ee89aaef5b" version="1">Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia.</content>
   <content contentuid="h66fbaf70g36bcg4313g969fgfabc9b4f1f69" version="4">Puedes lanzar uno de tus trucos que tenga un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</content>
- </contentList>
+  <content contentuid="h131208e0g1b65g0338gbc3dg9af0e2d478df" version="1">Precisión Élfica</content>
+  <content contentuid="h5807bc17g3e71g7234g30c2gf7b6a4fe91da" version="1">Siempre que tengas Ventaja en una tirada de ataque que use Destreza, Inteligencia, Sabiduría o Carisma, puedes relanzar uno de los dados una vez.</content>
+</contentList>

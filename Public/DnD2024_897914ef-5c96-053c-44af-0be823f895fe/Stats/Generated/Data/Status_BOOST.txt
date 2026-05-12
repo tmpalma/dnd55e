@@ -4221,7 +4221,7 @@ data "Icon" "Spell_Evocation_Daylight_Enchantment"
 data "SoundLoop" "Spell_Status_Utility_Daylight"
 data "SoundStop" "Spell_Status_Utility_Daylight_Stop"
 data "StackId" "GLEAM_OF_WRATH"
-data "Boosts" "WeaponProperty(Magical);GameplayLight(3,false,0.1,true);"
+data "Boosts" "WeaponProperty(Magical);WeaponDamageTypeOverride(Radiant);GameplayLight(3,false,0.1,true);"
 data "StatusEffect" "f2204a1d-a79b-4efe-a3da-3ed69392b94a"
 
 new entry "__THE CROOKED MOON__"

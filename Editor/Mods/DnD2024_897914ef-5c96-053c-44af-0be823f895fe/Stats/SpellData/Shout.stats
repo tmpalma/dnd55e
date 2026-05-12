@@ -3756,6 +3756,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89b6e006g139bgf893g9a7dg642ea772fd27" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GLEAM_OF_WRATH,100, 10)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

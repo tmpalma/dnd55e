@@ -3148,6 +3148,7 @@ data "DisplayName" "h93af975eg1568g7912g8166g2000a25d6098;1"
 data "Description" "h89b6e006g139bgf893g9a7dg642ea772fd27;2"
 data "TooltipStatusApply" "ApplyStatus(GLEAM_OF_WRATH,100, 10)"
 data "UseCosts" "BonusActionPoint:1;"
+data "Sheathing" "Melee"
 
 new entry "Shout___RACE__"
 type "SpellData"

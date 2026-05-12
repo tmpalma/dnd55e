@@ -124,7 +124,8 @@ The complete **2024 Weapon Mastery** system — all properties implemented:
 | 🇬🇧 English | ✅ Built-in |
 | 🇪🇸 Spanish (Castilian) | ✅ Built-in |
 | 🇲🇽 Spanish (Latin American) | ✅ Built-in |
-| 🇰🇷 Korean | ✅ Built-in |
+| 🇰🇷 Korean | 📦 [External Patch](https://www.nexusmods.com/baldursgate3/mods/22245) |
+| 🇯🇵 Japanese | 📦 [External Patch](https://www.nexusmods.com/baldursgate3/mods/22268) |
 | 🇷🇺 Russian | 📦 [External Patch](https://mod.io/g/baldursgate3/m/dnd-55e-all-in-one-beyond-russian-localization) |
 | 🇨🇳 Chinese (Simplified) | 📦 [External Patch](https://mod.io/g/baldursgate3/m/dnd-phb-2024-all-in-one-chs) |
 

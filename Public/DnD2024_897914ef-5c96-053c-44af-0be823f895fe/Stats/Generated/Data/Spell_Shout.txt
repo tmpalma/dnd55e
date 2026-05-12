@@ -2399,6 +2399,7 @@ data "SpellType" "Shout"
 using "Shout_Bladesong"
 data "SpellProperties" "ApplyStatus(BLADESONG,100,10);ApplyEquipmentStatus(MainHand, BLADESONG_BLADEWORK,100, 10);ApplyEquipmentStatus(OffHand, BLADESONG_BLADEWORK,100, 10);"
 data "Description" "hcf424f73gfc0dg7cc2gd583ga378200e953d;1"
+data "ExtraDescription" ""
 data "UseCosts" "BonusActionPoint:1;ArcaneRecoveryPoint:1;"
 data "RequirementConditions" "BladesongAvaliable()"
 

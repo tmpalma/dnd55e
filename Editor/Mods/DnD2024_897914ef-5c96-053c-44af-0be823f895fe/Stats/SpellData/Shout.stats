@@ -2871,6 +2871,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ArcaneRecoveryPoint:1;" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="BladesongAvaliable()" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BLADESONG,100,10);ApplyEquipmentStatus(MainHand, BLADESONG_BLADEWORK,100, 10);ApplyEquipmentStatus(OffHand, BLADESONG_BLADEWORK,100, 10);" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object color="#FF800000" is_substat="false">

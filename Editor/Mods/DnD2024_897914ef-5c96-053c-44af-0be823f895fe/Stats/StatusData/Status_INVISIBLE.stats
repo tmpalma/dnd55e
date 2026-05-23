@@ -17,5 +17,14 @@
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(INVOKE_DUPLICITY_AURA,100,-1);ApplyStatus(INVOKE_DUPLICITY_AURA_2,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d302745-d9a3-4d5b-91b7-a6a5094d0dd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ONE_WITH_SHADOWS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9036224b-3c4e-4fa9-8d51-0a26874c87eb" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

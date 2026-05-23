@@ -10,3 +10,10 @@ data "StatusType" "INVISIBLE"
 using "INVOKE_DUPLICITY_TECHNICAL"
 data "OnRemoveFunctors" "ApplyStatus(INVOKE_DUPLICITY_AURA,100,-1);ApplyStatus(INVOKE_DUPLICITY_AURA_2,100,-1)"
 
+new entry "ONE_WITH_SHADOWS"
+type "StatusData"
+data "StatusType" "INVISIBLE"
+using "ONE_WITH_SHADOWS"
+data "RemoveEvents" "OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished"
+data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"
+

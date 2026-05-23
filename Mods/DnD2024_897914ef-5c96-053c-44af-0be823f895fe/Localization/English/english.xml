@@ -3526,4 +3526,5 @@ The damage becomes 4d6 when you reach Monster Hunter level 11.</content>
   <content contentuid="h313bab3cg67c1gfa03ge6f3g354db3046e48" version="1">Studied Response (Melee)</content>
   <content contentuid="h2f932b68g4347ga354g521cgc438d3f99c6d" version="1">When a creature you can see within 60 feet of you targets you or another creature with a melee or ranged attack, you can take a Reaction before the attack roll to make one attack with a weapon or an Unarmed Strike against that creature.</content>
   <content contentuid="he03aadf1g28cbg5549g778fgff77ace6f7ba" version="1">Studied Response (Ranged)</content>
+  <content contentuid="he571e586gc384gf9bbg0231g7c7be2144adc" version="1">Vanish into the darkness and become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
 </contentList>

@@ -4,3 +4,9 @@ data "StatusType" "INVISIBLE"
 using "MISTY_ESCAPE_INVISIBLE"
 data "StackId" "MISTY_ESCAPE_INVISIBLE"
 
+new entry "INVOKE_DUPLICITY_TECHNICAL"
+type "StatusData"
+data "StatusType" "INVISIBLE"
+using "INVOKE_DUPLICITY_TECHNICAL"
+data "OnRemoveFunctors" "ApplyStatus(INVOKE_DUPLICITY_AURA,100,-1);ApplyStatus(INVOKE_DUPLICITY_AURA_2,100,-1)"
+

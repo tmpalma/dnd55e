@@ -9,5 +9,13 @@
         <field name="StackId" type="StringTableFieldDefinition" value="MISTY_ESCAPE_INVISIBLE" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d651048-f98d-42a0-85c7-9d6b0aa50a1a" />
+        <field name="Name" type="NameTableFieldDefinition" value="INVOKE_DUPLICITY_TECHNICAL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="245a831a-fb83-4158-8f23-96c48e69e013" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(INVOKE_DUPLICITY_AURA,100,-1);ApplyStatus(INVOKE_DUPLICITY_AURA_2,100,-1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

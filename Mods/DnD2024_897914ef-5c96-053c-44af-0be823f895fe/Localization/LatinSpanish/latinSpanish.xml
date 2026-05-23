@@ -3523,4 +3523,5 @@ El daño aumenta a 4d6 cuando alcanzas el nivel 11 de Cazador de Monstruos.</con
   <content contentuid="h313bab3cg67c1gfa03ge6f3g354db3046e48" version="1">Respuesta Estudiada (Cuerpo a Cuerpo)</content>
   <content contentuid="h2f932b68g4347ga354g521cgc438d3f99c6d" version="1">Cuando una criatura que puedas ver a 60 pies de ti te ataca a ti u otra criatura con un ataque cuerpo a cuerpo o a distancia, puedes usar tu Reacción antes de la tirada de ataque para realizar un ataque con un arma o un Golpe Desarmado contra esa criatura.</content>
   <content contentuid="he03aadf1g28cbg5549g778fgff77ace6f7ba" version="1">Respuesta Estudiada (A Distancia)</content>
+  <content contentuid="he571e586gc384gf9bbg0231g7c7be2144adc" version="1">Te desvanéces en la oscuridad y te haces &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
 </contentList>

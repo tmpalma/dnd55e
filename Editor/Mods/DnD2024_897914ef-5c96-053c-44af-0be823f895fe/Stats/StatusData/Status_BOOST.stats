@@ -4634,6 +4634,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a79f3098-9fb1-4ba6-b286-97a45f09a15e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_VENGEFULBLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_VENGEFULBLADE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_VengefulBlade);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="95dbe0fc-222e-48f5-b2a5-67d531da91a9" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_WORDOFRADIANCE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />

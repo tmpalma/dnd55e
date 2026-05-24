@@ -3715,6 +3715,13 @@ using "MAGICINITIATE_ACIDSPLASH"
 data "StackId" "MAGICINITIATE_TRUESTRIKE"
 data "Boosts" "UnlockSpell(Target_TrueStrike);"
 
+new entry "MAGICINITIATE_VENGEFULBLADE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGICINITIATE_ACIDSPLASH"
+data "StackId" "MAGICINITIATE_VENGEFULBLADE"
+data "Boosts" "UnlockSpell(Target_VengefulBlade);"
+
 new entry "MAGICINITIATE_WORDOFRADIANCE"
 type "StatusData"
 data "StatusType" "BOOST"

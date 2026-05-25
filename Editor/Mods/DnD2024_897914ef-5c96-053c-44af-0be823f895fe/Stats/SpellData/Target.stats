@@ -3617,7 +3617,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1c58a8d7-86bf-416d-bf4d-cd404dd16da5" />
-        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_3" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e4763329-b414-46f8-b731-61a07806b14a" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
@@ -3626,7 +3626,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6bfbdd40-627d-4eb0-98a2-82bda7d50355" />
-        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_4" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5a7dc9f4-5581-4566-b4d0-b1b44327e8b0" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,10);" />
@@ -7430,6 +7430,17 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="52bd8281-f970-4e5f-a313-d57945d2608a" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Smite_Eldritch_3;Target_Smite_Eldritch_4;Target_Smite_Eldritch_5;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f982ab08-89d8-494d-bb6b-e55e3adcaedc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smite_Eldritch_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d425e714-2b8b-455f-9405-520ac4f469df" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7444,6 +7455,8 @@
         <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7459,6 +7472,8 @@
         <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:5;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">

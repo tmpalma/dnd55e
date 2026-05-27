@@ -4611,7 +4611,7 @@ data "Description" "h63673c65g21eagce37g8f0egcb6d3f41ce4e;1"
 data "Icon" "PassiveFeature_IronMind"
 data "PriorityOrder" "16107"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "StatusImmunity(SG_Frightened;"
+data "Boosts" "StatusImmunity(SG_Frightened);"
 
 new entry "CarverGuild_10_TerrorizeTheTerrors"
 type "PassiveData"

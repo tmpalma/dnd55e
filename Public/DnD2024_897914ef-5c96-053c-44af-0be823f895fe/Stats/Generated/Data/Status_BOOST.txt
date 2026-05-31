@@ -4852,4 +4852,5 @@ data "Icon" "Action_Wolf_Bite"
 data "StackId" "WORG_BITE"
 data "TickType" "StartTurn"
 data "Boosts" "Advantage(AttackTarget)"
+data "StatusPropertyFlags" "TickingWithSource"
 

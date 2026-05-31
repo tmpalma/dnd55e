@@ -4024,7 +4024,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Abberant_6_PsionicSorcery" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;MetaMagic;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(AbberantPsionicSpells(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow(),ModifyUseCosts(Add,SorceryPoint,SpellPowerLevel,0));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(AbberantPsionicSpells(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow(),ModifyUseCosts(Add,SorceryPoint,SpellPowerLevel,0),ModifySpellFlags(Verbal,0),ModifySpellFlags(Stealth,1));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

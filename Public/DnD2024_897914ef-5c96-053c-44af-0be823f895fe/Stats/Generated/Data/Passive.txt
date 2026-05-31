@@ -2912,7 +2912,7 @@ data "Description" "h4aa07c08gb93egab88g61e1g0ced3d3207e0;1"
 data "Icon" "Abberant_6_PsionicSorcery"
 data "PriorityOrder" "10103"
 data "Properties" "IsToggled;ToggledDefaultAddToHotbar;MetaMagic;Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpellVariant(AbberantPsionicSpells(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow(),ModifyUseCosts(Add,SorceryPoint,SpellPowerLevel,0));"
+data "Boosts" "UnlockSpellVariant(AbberantPsionicSpells(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow(),ModifyUseCosts(Add,SorceryPoint,SpellPowerLevel,0),ModifySpellFlags(Verbal,0),ModifySpellFlags(Stealth,1));"
 
 new entry "Abberant_6_PsychicDefenses"
 type "PassiveData"

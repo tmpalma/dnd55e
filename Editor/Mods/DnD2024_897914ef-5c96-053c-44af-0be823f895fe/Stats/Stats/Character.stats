@@ -289,7 +289,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="__MONSTER MANUEL__" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="37012991-432a-414e-ab8f-329783f5cb35" />
         <field name="Name" type="NameTableFieldDefinition" value="Companion_Worg" />
@@ -337,6 +337,155 @@
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1" />
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5fa649f-addd-475b-b7bd-ab7c9f549514" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb4b94e0-7134-463d-ab08-ca4622a3500f" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="117cc7dc-5be2-4eb5-86f7-5a7baab98c36" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9781b07-b2cc-4154-b09c-cd6e2ea5bf55" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02e8dca8-c661-49c5-8f27-0488bb1fa7ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f862e70a-8a86-4a30-9b07-caa46007366e" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="830da20b-8c33-419c-bb3f-345ed0403ac5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b6e05e7-e5f7-489e-97ec-a170a5d02ce7" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2665d2ad-8217-4163-801d-126107d2b29e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6f0bf7e-18c2-4efe-ac44-e4308e05f8c7" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a628fc04-df70-4b9c-a567-60a3bc51eaa6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_Githyanki_Captain_Wolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b1c1cddb-37ea-409f-af40-f2bd4b5e570a" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36877138-83d0-4808-b609-c2f42c40a20f" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_BasiliskGate_Companion_Wolf_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c9968601-9651-477c-b8a4-48d3e12dc5a6" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ee14186-17f6-4ee7-ad63-112fd0f4e469" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_CazadorPalace_Ritual_Werewolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc31f39c-2aad-40f1-9292-d1aa3153e7dd" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Werewolf_Rage;Multiattack_Werewolf;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2baf14af-1adb-4681-9d8b-4a98b5a8c02f" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_CazadorPalace_Ritual_Wolf_Dire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="216f9831-c125-435f-9901-0a4badfbcd50" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Alert;AttackOfOpportunity;DarknessRules;PackTactics;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8268292-8d17-4648-9de6-debb46be30b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="837f1eea-cf81-4d8a-a22f-7dc78a5f0926" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5db44bc7-5f5a-496d-ae2e-2ad25e336319" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4320da81-31f0-44bd-b265-7834d774f6de" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40d2b7ec-5636-4d00-aa7d-d0876103cc3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire_Wildshape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7a695758-6a06-45c2-ad0e-2186212a70e1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9981bc5c-a9a2-446a-8835-d445bab1f6f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire_Wildshape_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e9ee0b07-3e82-4d20-972d-425dcee5eae6" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1b74ff4-8bcb-4297-958f-6aa19124078d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire_Wildshape_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="93954ef5-337a-49a5-9c60-2b590fff841f" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b55a8d4b-3865-448f-b826-b9d1b2ba81cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire_Wildshape_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ac06992-75c1-4438-ac1b-1fb3339e0941" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc79ac83-9fda-44ec-aea4-7310ca98def3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire_Wildshape_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="853d4dfe-c447-4449-bfb9-c25cda0a5c49" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6daf6197-d8ab-4327-9b24-0f501629ee09" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Dire_Wildshape_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="591f39b1-2321-4a40-9b59-4755a4f23e75" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a60ec04d-c906-4697-a32d-3865437f3f3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_Wildshape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e703ca6-0e52-450c-b8fc-8e27ce05b4f1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
       </fields>
     </stat_object>
   </stat_objects>

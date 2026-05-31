@@ -246,3 +246,98 @@ data "SpellCastingAbility" "Strength"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1"
 data "Passives" "AttackOfOpportunity;DarknessRules;WorgBite"
 
+new entry "Companion_Wolf"
+type "Character"
+using "Companion_Wolf"
+data "Strength" "14"
+data "Passives" "HuntersMark_RangerCompanion;PackTactics;ShortResting;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Companion_Wolf_5"
+type "Character"
+using "Companion_Wolf_5"
+data "Strength" "14"
+data "Passives" "HuntersMark_RangerCompanion;PackTactics;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Companion_Wolf_7"
+type "Character"
+using "Companion_Wolf_7"
+data "Strength" "14"
+data "Passives" "HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;WolfBite"
+
+new entry "Companion_Wolf_8"
+type "Character"
+using "Companion_Wolf_8"
+data "Strength" "14"
+data "Passives" "HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;WolfBite"
+
+new entry "Companion_Wolf_11"
+type "Character"
+using "Companion_Wolf_11"
+data "Strength" "14"
+data "Passives" "HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;WolfBite"
+
+new entry "CRE_Githyanki_Captain_Wolf"
+type "Character"
+using "CRE_Githyanki_Captain_Wolf"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "LOW_BasiliskGate_Companion_Wolf_11"
+type "Character"
+using "LOW_BasiliskGate_Companion_Wolf_11"
+data "Passives" "HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;WolfBite"
+
+new entry "LOW_CazadorPalace_Ritual_Werewolf"
+type "Character"
+using "LOW_CazadorPalace_Ritual_Werewolf"
+data "Passives" "Werewolf_Rage;Multiattack_Werewolf;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "LOW_CazadorPalace_Ritual_Wolf_Dire"
+type "Character"
+using "LOW_CazadorPalace_Ritual_Wolf_Dire"
+data "Passives" "Alert;AttackOfOpportunity;DarknessRules;PackTactics;WolfBite"
+
+new entry "Wolf"
+type "Character"
+using "Wolf"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire"
+type "Character"
+using "Wolf_Dire"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire_Wildshape"
+type "Character"
+using "Wolf_Dire_Wildshape"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire_Wildshape_4"
+type "Character"
+using "Wolf_Dire_Wildshape_4"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire_Wildshape_6"
+type "Character"
+using "Wolf_Dire_Wildshape_6"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire_Wildshape_8"
+type "Character"
+using "Wolf_Dire_Wildshape_8"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire_Wildshape_10"
+type "Character"
+using "Wolf_Dire_Wildshape_10"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Dire_Wildshape_12"
+type "Character"
+using "Wolf_Dire_Wildshape_12"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+
+new entry "Wolf_Wildshape"
+type "Character"
+using "Wolf_Wildshape"
+data "Passives" "PackTactics;AttackOfOpportunity;DarknessRules;WolfBite"
+

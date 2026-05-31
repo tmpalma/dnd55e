@@ -4401,6 +4401,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f56b7abe-a2c5-4208-8661-a7eb7430f2ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="FiendishVigor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0ebbc6a-70e8-41a6-8a01-4a4456c10242" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f843ebcg8610ga557g917ag613b7d8001e7" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h18b3f8afg5a28g03a8gaefdg39fb7c01b1f4" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c1c4b91b-0da5-4618-8382-232d365652b7" />
         <field name="Name" type="NameTableFieldDefinition" value="AgonizingBlast" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9826308d-cdc0-4d2b-9981-07692ee6592b" />

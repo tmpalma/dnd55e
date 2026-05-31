@@ -5874,3 +5874,10 @@ data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "HasDamageDoneForType(DamageType.Radiant);"
 data "StatsFunctors" "DealDamage(SWAP,ProficiencyBonus,Force,Magical)"
 
+new entry "WorgBite"
+type "PassiveData"
+data "DisplayName" "h0805a747g80bagaf09g663ag5acb0587c8ac;1"
+data "Description" "h0df6bd7eg5ba4g8c7fg7e50g95072f249ac3;1"
+data "StatsFunctorContext" "OnDamage"
+data "StatsFunctors" "ApplyStatus(WORG_BITE,100,1)"
+

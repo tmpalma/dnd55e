@@ -6050,5 +6050,17 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42e7e44fge041g864egc55fgbbdba0e4da67" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e36becb9-9f29-4557-944d-38ac5cdb6ad8" />
+        <field name="Name" type="NameTableFieldDefinition" value="WORG_BITE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h71909c63g6997gca6eg3fd9gf0c3045cac19" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf384310bg4b63gee6dga622g694c2ded1d00" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_Bite" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WORG_BITE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

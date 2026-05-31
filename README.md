@@ -78,6 +78,8 @@ Every base class has been **rebuilt from scratch** to match the 2024 PHB — not
 
 All backgrounds updated to the 2024 PHB format — each now grants its **Origin Feat**, two skill proficiencies, and a starting equipment package.
 
+### [Creatures](./README/README_Creatures.MD)
+
 ### [Feats](./README/README_Feat.MD)
 
 **80+ feats** spanning five sourcebooks, all revised for the 2024 design philosophy — every feat that grants an ability score increase now does so correctly.

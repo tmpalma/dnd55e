@@ -283,5 +283,61 @@
         <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack_2;AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd51d85d-1a72-410d-81f5-aef9bf820721" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONSTER MANUEL__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37012991-432a-414e-ab8f-329783f5cb35" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Worg" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcd25c09-82b7-4c4d-99c6-e5fbbd625387" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4228a70e-0315-4f59-9cd4-a024656f4bd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Worg" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e4ddd9d-1b14-493a-9aec-7803451638de" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48b44f3d-b7dd-41fa-99b4-c6cfd60e4465" />
+        <field name="Name" type="NameTableFieldDefinition" value="Worg" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="84b43ec9-884b-4cee-aaae-211db0f4d19a" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16728c69-5186-4b65-9cab-7207496abf17" />
+        <field name="Name" type="NameTableFieldDefinition" value="Worg_Cruel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98fbd9e8-17e8-4d40-8629-3db5ba7193a1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77440019-cc9f-4d28-bbdb-f2c534b9ac3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Worg_Lesser" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8fea71b6-e5a1-4ed5-b398-fedd205888d0" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:15;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

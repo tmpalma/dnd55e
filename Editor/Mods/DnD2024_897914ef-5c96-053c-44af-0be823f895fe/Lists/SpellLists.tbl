@@ -2281,13 +2281,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92" />
-        <field name="Name" type="NameTableFieldDefinition" value="Gith Level 3" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Jump" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="87762fb9-bc0a-43bd-9467-74cebf09b38e" />
         <field name="Name" type="NameTableFieldDefinition" value="Rock Gnome 1" />
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_Prestidigitation" />

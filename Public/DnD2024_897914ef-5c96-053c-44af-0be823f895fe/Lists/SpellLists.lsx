@@ -1645,11 +1645,6 @@
                     <attribute id="UUID" type="guid" value="36cd7889-8a59-4ddd-b65a-cb96fa358992"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Gith Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Jump"/>
-                    <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Rock Gnome 1"/>
                     <attribute id="Spells" type="LSString" value="Shout_Prestidigitation"/>
                     <attribute id="UUID" type="guid" value="87762fb9-bc0a-43bd-9467-74cebf09b38e"/>

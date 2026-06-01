@@ -8186,6 +8186,19 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="651f6d05-7606-4448-816c-83e5d97c7bae" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE GITHYANKI__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d9f12f9-0320-4113-a4c7-1a8aa6f435de" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_Jump" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="487be05c-3e51-40ff-bf28-4a19d4be839f" />
         <field name="Name" type="NameTableFieldDefinition" value="__NPC__" />
       </fields>

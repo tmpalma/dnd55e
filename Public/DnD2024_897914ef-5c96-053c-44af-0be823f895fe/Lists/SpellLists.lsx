@@ -1600,16 +1600,6 @@
                     <attribute id="UUID" type="guid" value="0b71b68f-a1c0-4481-86e4-9ffa6105b83b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Wood Elf Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Longstrider"/>
-                    <attribute id="UUID" type="guid" value="5aa61fcb-8b06-402f-9288-48d5a86a0636"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Wood Elf Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_PassWithoutTrace"/>
-                    <attribute id="UUID" type="guid" value="68acd617-9764-4a8b-9c91-6ddefc84f309"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Drow Level 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Darkness"/>
                     <attribute id="UUID" type="guid" value="01f43aaa-1641-419d-bfd2-1dff1f033a52"/>

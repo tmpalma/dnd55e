@@ -7577,8 +7577,8 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Drow"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(01f43aaa-1641-419d-bfd2-1dff1f033a52,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="a43498f5-d72f-4a05-b721-1feea9acb3ad"/>
                     <attribute id="UUID" type="guid" value="db485b48-fc71-4de4-a62d-47675659678b"/>
                 </node>
@@ -7785,11 +7785,10 @@
                     <attribute id="UUID" type="guid" value="87d2588b-bd2e-43df-ace0-2c2d3efea0ca"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="HalfDrow"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(01f43aaa-1641-419d-bfd2-1dff1f033a52,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="4ef615e7-e401-4304-bedc-5c229caa1dc2"/>
                     <attribute id="UUID" type="guid" value="60758c3f-d9c5-4f1a-a253-cf2a5e60b627"/>
                 </node>

@@ -9800,7 +9800,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Drow" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(01f43aaa-1641-419d-bfd2-1dff1f033a52,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_Darkness" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10082,8 +10082,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="HalfDrow" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(01f43aaa-1641-419d-bfd2-1dff1f033a52,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_Darkness" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

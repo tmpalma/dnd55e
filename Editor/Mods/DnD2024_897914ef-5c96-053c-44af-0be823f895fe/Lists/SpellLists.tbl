@@ -2218,20 +2218,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5aa61fcb-8b06-402f-9288-48d5a86a0636" />
-        <field name="Name" type="NameTableFieldDefinition" value="Wood Elf Level 3" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Longstrider" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="68acd617-9764-4a8b-9c91-6ddefc84f309" />
-        <field name="Name" type="NameTableFieldDefinition" value="Wood Elf Level 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_PassWithoutTrace" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="01f43aaa-1641-419d-bfd2-1dff1f033a52" />
         <field name="Name" type="NameTableFieldDefinition" value="Drow Level 5" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Darkness" />

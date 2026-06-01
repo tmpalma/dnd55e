@@ -5906,6 +5906,13 @@ new entry "RaceSpell_GustOfWind"
 type "PassiveData"
 data "Boosts" "UnlockSpell(Zone_GustOfWind,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
 
+new entry "__RACE DROW__"
+type "PassiveData"
+
+new entry "RaceSpell_Darkness"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Target_Darkness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
+
 new entry "__NPC__"
 type "PassiveData"
 

@@ -4315,6 +4315,20 @@
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="625606c5-3023-4584-ba1c-466209c44b81" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Voltedge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6352039-a985-4b94-886a-29dd7af0d203" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2fcf8e91-2197-4b3c-b346-c8bcbae23855" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(1);WeaponProperty(Magical);WeaponDamage(1d6, Lightning);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Zone_MAG_Voltedge);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryVex;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5ddf6d5b-bdd6-4250-96d0-a8fe58aea5cf" />

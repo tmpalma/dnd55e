@@ -26,4 +26,5 @@
 - The Oak Father's Embrace
 - The Sacred Star (Loot from a Heavy Chest in the Dank Crypt)
 - True Name (Illrigger Equipment, Loot from He Who Was)
+- Voltedge (Looted from an Animated Armor in the Arcane Tower)
 - Xyanyde

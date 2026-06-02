@@ -3229,6 +3229,17 @@ data "Weight" "0.6"
 data "Boosts" ""
 data "BoostsOnEquipMainHand" ""
 
+new entry "MAG_Voltedge"
+type "Weapon"
+using "WPN_Shortsword_1"
+data "RootTemplate" "2fcf8e91-2197-4b3c-b346-c8bcbae23855"
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Rarity" "Rare"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);WeaponDamage(1d6, Lightning);"
+data "BoostsOnEquipMainHand" "UnlockSpell(Zone_MAG_Voltedge);"
+data "PassivesOnEquip" "WeaponMasteryVex;"
+data "Unique" "1"
+
 new entry "__SICKLES__"
 type "Weapon"
 

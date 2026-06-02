@@ -497,5 +497,48 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="177de758-ecc2-44ec-afcc-c26fa58bdb5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Voltedge" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="SurfaceType" type="EnumerationTableFieldDefinition" value="Sentinel" enumeration_type_name="Surface Type" version="1" />
+        <field name="SurfaceLifetime" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerTableFieldDefinition" value="10" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, 15)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6,Lightning,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d6/2,Lightning,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally()) and not Tagged('INVISIBLE_HELPER')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_LightningBolt" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c47e364g0a41g1229g1e15g9ee56517f25c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdadc829g334eg78cegcbaegac19146a68cc" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Lightning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_LightningBolt_L5" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_LightningBolt_L5" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_LightningBolt_L5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_LightningBolt_L5" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Shape" type="StringTableFieldDefinition" value="Square" />
+        <field name="FrontOffset" type="IntegerTableFieldDefinition" value="-2" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Base" type="IntegerTableFieldDefinition" value="2" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Electric" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="77241e8c-ae8d-4402-92d8-a871ce64d86f" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a6aab94c-e0b5-4cbe-81cb-53ff6b1a662a" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="f2ca2970-0882-412b-9c84-033ac7160ed7" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="6a1dbffa-77da-4362-bcad-a035db12aeec" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Lightning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

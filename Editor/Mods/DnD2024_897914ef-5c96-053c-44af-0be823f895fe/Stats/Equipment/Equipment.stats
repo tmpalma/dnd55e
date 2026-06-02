@@ -166,5 +166,14 @@
         <field name="15" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="015d6206-d439-4965-84eb-da0dd5bd085d" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Voltedge_HeavyCrossbow" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_HeavyCrossbow" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="MAG_Voltedge" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

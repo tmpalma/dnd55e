@@ -199,3 +199,10 @@ add equipment entry "ARM_Camp_Shoes"
 add equipmentgroup
 add equipment entry "OBJ_Backpack_CampSupplies"
 
+new equipment "EQP_Voltedge_HeavyCrossbow"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow"
+add equipmentgroup
+add equipment entry "MAG_Voltedge"
+

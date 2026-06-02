@@ -1925,6 +1925,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(LandsAid)+ClassLevel(Druid));" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WildShape:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Requirements" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

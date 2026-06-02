@@ -1587,6 +1587,7 @@ data "Description" "hc24409fagede8g0aaag1ad3g32c2949bb667;2"
 data "TooltipDamageList" "RegainHitPoints(LevelMapValue(LandsAid)+ClassLevel(Druid));"
 data "UseCosts" "BonusActionPoint:1;WildShape:1"
 data "SpellFlags" ""
+data "Requirements" ""
 
 new entry "Shout_SongOfRest_Hearth"
 type "SpellData"

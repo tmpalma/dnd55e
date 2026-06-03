@@ -1187,7 +1187,6 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DARKNESS_RECAST,100,10)" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DARKNESS_RECAST)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1200,6 +1199,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h165ff057g66b4g488dg8815gdc5f1e533378" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkness" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1216,6 +1216,27 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DARKNESS_RECAST,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed44d85d-b035-4436-a010-691a0e4f0952" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c778eecf-46ab-4cdc-aae7-592a851ffb59" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="242b8370-d66e-484c-86ab-a4cd6974a9d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="11bb4766-5ca5-4e5c-a58f-d20f9ef52d6e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c5f64e1-f6e0-4d75-b7a3-2d8f1a8218fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b1e5d87-e09b-44b9-a1a2-739d7172cc1d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

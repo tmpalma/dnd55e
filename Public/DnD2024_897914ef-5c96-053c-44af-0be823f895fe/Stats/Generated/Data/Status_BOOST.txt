@@ -974,7 +974,6 @@ data "StackId" "DARKNESS_CASTER"
 data "TickType" "StartTurn"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "ApplyStatus(SELF,DARKNESS_RECAST,100,10)"
-data "OnRemoveFunctors" "RemoveStatus(DARKNESS_RECAST)"
 
 new entry "DARKNESS_CASTER_RECAST"
 type "StatusData"
@@ -985,6 +984,7 @@ data "Description" "h165ff057g66b4g488dg8815gdc5f1e533378;1"
 data "Icon" "Spell_Evocation_Darkness"
 data "StackId" "DARKNESS_CASTER"
 data "TickType" "StartTurn"
+data "OnApplyFunctors" ""
 
 new entry "DARKNESS_RECAST"
 type "StatusData"
@@ -999,6 +999,21 @@ data "RemoveConditions" "not (HasStatus('DARKNESS_CASTER') or HasStatus('DARKNES
 data "RemoveEvents" "OnTurn;OnDamage"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "ApplyStatus(SELF,DARKNESS_RECAST,100,10)"
+
+new entry "New_Stat_0"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CLOUDKILL_CASTER"
+
+new entry "New_Stat_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CLOUDKILL_CASTER_RECAST"
+
+new entry "New_Stat_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CLOUDKILL_RECAST"
 
 new entry "FLAME_BLADE"
 type "StatusData"

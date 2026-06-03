@@ -4141,4 +4141,6 @@
   <content contentuid="hfdadc829g334eg78cegcbaegac19146a68cc" version="1">Puedes usar una acción mágica para lanzar un rayo concentrado desde la hoja en línea recta de 60 pies de largo y 5 pies de ancho. Cada criatura en la línea debe realizar una tirada de salvación de Destreza con CD 15, recibiendo 4d6 puntos de daño por relámpago si falla o la mitad si supera dicha tirada.</content>
   <content contentuid="h9191c661g0d83g945ag7a11gb64ae36d522c" version="2">Voltaje</content>
   <content contentuid="he90d9b36g7ae9g73fcg730cg7f11303ec293" version="2">Forjada por la misma Tormenta, esta hoja partida crepita con Relámpagos cautivos, portando la furia de una tempestad en su filo brillante.</content>
+  <content contentuid="h5fe7400ag82f7g6073g3bcbgd343cec9bd16" version="1">Esta arma otorga un bonificador de +[1] a las tiradas de ataque, tiradas de daño, &lt;LSTag Tooltip="SpellDifficultyClass"&gt;CD de conjuro&lt;/LSTag&gt; y tiradas de &lt;LSTag Tooltip="AttackRoll"&gt;ataque de conjuro&lt;/LSTag&gt;.</content>
+  <content contentuid="h99e76e2eg9ad8ge1c9g7478g77f49aa7113e" version="1">Esta arma otorga un bonificador de +[1] a las tiradas de ataque, tiradas de daño, &lt;LSTag Tooltip="SpellDifficultyClass"&gt;CD de conjuro&lt;/LSTag&gt; y tiradas de &lt;LSTag Tooltip="AttackRoll"&gt;ataque de conjuro&lt;/LSTag&gt;.</content>
 </contentList>

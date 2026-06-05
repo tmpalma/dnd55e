@@ -4872,6 +4872,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="8fb57960-eb92-48f5-b99d-ab36519e4d4f"/>
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="e0e6a5e2-b147-4088-9a81-6364f3ebe25c"/>
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -8097,6 +8100,55 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="UndeadPatron"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UndeadPatron_3_FormOfDread;UndeadPatron_3_UndeadSpells"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(97234287-c65c-437a-8d5d-4c1c41de1774)"/>
+                    <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="UUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="UndeadPatron"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(ed5aa3b7-02c6-444a-9c98-4ba889b887d9)"/>
+                    <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="UUID" type="guid" value="d3884cf1-cf81-41f7-a283-303a9d1d23ff"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="UndeadPatron"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UndeadPatron_6_GraveTouched"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="UUID" type="guid" value="34924027-6c18-407e-b295-22276890d1bd"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="UndeadPatron"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d1cb2b13-e038-4264-a3c4-d869730768a4)"/>
+                    <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="UUID" type="guid" value="4d5fb3c4-0d0a-4086-874b-f0f4d2315b0d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="UndeadPatron"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d01bbe5f-a03f-4be4-a201-3dccb175dd22)"/>
+                    <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="UUID" type="guid" value="9931efa4-40fb-4052-84c8-fdcf9c0c755e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="UndeadPatron"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UndeadPatron_10_NecroticHusk"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="UUID" type="guid" value="edb7248a-0968-4bc1-b71f-e0ce94c60d58"/>
                 </node>
             </children>
         </node>

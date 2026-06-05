@@ -5187,6 +5187,64 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic,Resistant);RedirectDamage(1,,Psychic,true);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d9b679d-3549-43d0-ab86-e76bf12225e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="__UNDEAD PATRON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89b2503c-1d3a-4cd9-abad-6b8c1e721e83" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadPatron_3_FormOfDread" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf3e7b3e5gd803gdb85g050dg99a565121fbd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60b8e3b3ge993g7677ge82egd9590a175841" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_CreateUndead" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Frightened);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,2,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41f08362-eaaf-4317-af0d-3ed0e0128004" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadPatron_3_UndeadSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd558b81gae7eg26dag6eaegf0f7e3dd0197" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72a8bf1agc8fbgec94g5bd1g5c0893342c80" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h423f4d8eg647cg79b9g302bg9ad97549087a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_CreateUndead" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c46c0355-c696-4cb7-948a-d81b93b5563c" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadPatron_6_GraveTouched" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h51d8435ag421eg4abdg2702ga3868c2dab5c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9978d0deg7d77g5755g43fbg0caf50e3b407" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Sleeping);IF(MainDamageTypeIs(DamageType.Necrotic)):MinimumRollResult(Damage,2);IgnoreResistance(Necrotic,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9727fdba-c873-4a78-b9f9-ecf1294bf352" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadPatron_10_NecroticHusk" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he206cdceg59e4gfa8cg4328gf3d7938622de" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc58f0177g4e5fgb789g4272g3e57d5e733b0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11410" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic, Immune);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb1cbe42-0730-470a-8946-510854f7a4e2" />

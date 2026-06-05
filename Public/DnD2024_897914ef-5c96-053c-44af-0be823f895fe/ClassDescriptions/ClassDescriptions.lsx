@@ -386,6 +386,19 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h52252f05gb82agd434gc0a3g495ebfd2fb82" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h36f8ec91gd0ffg30e0g363aga7612313e95b" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="HollowWarden"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="42e7625d-114d-4bb3-9af1-663295711a01"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -825,16 +838,16 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h52252f05gb82agd434gc0a3g495ebfd2fb82" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h36f8ec91gd0ffg30e0g363aga7612313e95b" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h8fe28200g46b7g051cga5b0ga6bd5b6a5b73" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h82eeb0d5g97f8gb543g1fccgc1ddce66a5b2" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="HollowWarden"/>
-                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-                    <attribute id="UUID" type="guid" value="42e7625d-114d-4bb3-9af1-663295711a01"/>
+                    <attribute id="Name" type="FixedString" value="UndeadPatron"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="e0e6a5e2-b147-4088-9a81-6364f3ebe25c"/>
                 </node>
             </children>
         </node>

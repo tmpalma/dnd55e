@@ -6207,7 +6207,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(WarlockSpellSlot,2,2);ActionResourceOverride(WarlockSpellSlot,0,1)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(854033fe-84b8-4a22-9a0c-ddc0eb2a74d1,1,1);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24;1e077f6b-1034-43ab-b54c-5718d78e9437;8866db28-7dda-4fd6-93ed-20eca16314f0;e1e4a21f-9405-46ec-81a0-ccc8d58d9736;8fb57960-eb92-48f5-b99d-ab36519e4d4f" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24;1e077f6b-1034-43ab-b54c-5718d78e9437;8866db28-7dda-4fd6-93ed-20eca16314f0;e1e4a21f-9405-46ec-81a0-ccc8d58d9736;8fb57960-eb92-48f5-b99d-ab36519e4d4f;e0e6a5e2-b147-4088-9a81-6364f3ebe25c" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6946,6 +6946,73 @@
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_925" />
+        <field name="UUID" type="IdTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UndeadPatron_3_FormOfDread;UndeadPatron_3_UndeadSpells" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(97234287-c65c-437a-8d5d-4c1c41de1774)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_926" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d3884cf1-cf81-41f7-a283-303a9d1d23ff" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ed5aa3b7-02c6-444a-9c98-4ba889b887d9)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_927" />
+        <field name="UUID" type="IdTableFieldDefinition" value="34924027-6c18-407e-b295-22276890d1bd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UndeadPatron_6_GraveTouched" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_928" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4d5fb3c4-0d0a-4086-874b-f0f4d2315b0d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d1cb2b13-e038-4264-a3c4-d869730768a4)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_929" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9931efa4-40fb-4052-84c8-fdcf9c0c755e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d01bbe5f-a03f-4be4-a201-3dccb175dd22)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_930" />
+        <field name="UUID" type="IdTableFieldDefinition" value="edb7248a-0968-4bc1-b71f-e0ce94c60d58" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
+        <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UndeadPatron_10_NecroticHusk" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">

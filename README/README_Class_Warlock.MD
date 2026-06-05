@@ -37,27 +37,31 @@
 - Gift of the Protectors
 - Minions of Chaos
 - Devouring Blade
-## Archfey
+## Archfey Patron
 - Level 3: Archfey Spells
 - Level 3: Steps of the Fey
 - Level 6: Misty Escape
 - Level 10: Beguiling Defenses
-## Celestial
+## Celestial Patron
 - Level 3: Celestial Spells
 - Level 3: Healing Light
 - Level 6: Radiant Soul
 - Level 10: Celestial Resilience
-## Fiend
+## Fiend Patron
 - Level 3: Dark One's Blessing
 - Level 3: Fiend Spells
 - Level 6: Dark One's Own Luck
 - Level 10: Fiendish Resilience
-## Great Old One [ ]
+## Great Old One Patron
 - Level 3: Great Old One Spells
 - Level 3: Mortal Reminder
-- Level 3: Psychic Spells [ ]
 - Level 6: EntropicWard
 - Level 10: Eldritch Hex
 - Level 10: Thought Shield
 ## Hexblade
 - Level 3: Hexblade Spells
+## Undead Patron
+- Level 3: Form of Dread
+- Level 3: Undead Spells
+- Level 6: Grave Touched
+- Level 10: Necrotic Husk

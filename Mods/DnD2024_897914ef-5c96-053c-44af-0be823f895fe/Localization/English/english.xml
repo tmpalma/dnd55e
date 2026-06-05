@@ -4232,4 +4232,5 @@ Unnerving Aura. When you transform and at the start of each of your subsequent t
   <content contentuid="h5d295166ga39bg4056gc6afg3170dfffabae" version="1">You regain a number of Hit Points equal to 1d10 plus your Wisdom modifier.</content>
   <content contentuid="h69a7fb39g6a1dg8cc5g6b7egf436399cf817" version="1">Menacing Aura</content>
   <content contentuid="h2dd6c79cg9334g06a2g3d43geab02d13b382" version="1">When a creature fails its saving throw against Unnerving Aura, it also can’t regain Hit Points or take Reactions until the start of your next turn.</content>
+  <content contentuid="hf16702a8g0c7fgdd18g3ea0g64f4822587ba" version="1">When you cast Warlock Cantrip, add your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage it deals, unless it is negative.</content>
 </contentList>

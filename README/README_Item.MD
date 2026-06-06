@@ -1,4 +1,5 @@
 # Item
+## Equipment
 - Argument Solver
 - Blazer of Benevolence
 - Cap of Curing
@@ -6,16 +7,16 @@
 - Charge-Bound Warhammer
 - Corrosive Flail
 - Dragon's Grasp
-- Enforcer Club (Loot from Flaming Fist Jacek)
-- Enforcer Helmet (Loot from Flaming Fist Jacek)
-- Enforcer Shield (Loot from Flaming Fist Jacek)
+- Enforcer Club (Looted from Flaming Fist Jacek)
+- Enforcer Helmet (Looted from Flaming Fist Jacek)
+- Enforcer Shield (Looted from Flaming Fist Jacek)
 - Gloves of Heroism
 - Hellrider's Pride
 - Helmet of Smiting
-- Holy Avenger (Paladin Equipment, Loot at Rosymorn Monastery)
+- Holy Avenger (Paladin equipment, looted from Rosymorn Monastery)
 - Hoppy
 - Hunting Shortbow
-- Moon Sickle (Druid and Ranger Equipment, Looted from the front of the Idol of Silvanus)
+- Moon Sickle (Druid and Ranger equipment, looted from in front of the Idol of Silvanus)
 - Musket
 - Musket +1
 - Musket +2
@@ -26,7 +27,10 @@
 - Spellthief
 - The Baneful
 - The Oak Father's Embrace
-- The Sacred Star (Loot from a Heavy Chest in the Dank Crypt)
-- True Name (Illrigger Equipment, Loot from He Who Was)
+- The Sacred Star (Looted from a Heavy Chest in the Dank Crypt)
+- True Name (Illrigger equipment, looted from He Who Was)
 - Voltedge (Looted from an Animated Armor in the Arcane Tower)
 - Xyanyde
+
+## Spell Scrolls
+Spell scrolls of 3rd level or higher are restricted to specific classes.

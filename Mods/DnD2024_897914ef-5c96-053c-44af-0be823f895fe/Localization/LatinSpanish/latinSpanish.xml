@@ -4087,4 +4087,38 @@ Hoja Inevitable. Una vez por turno, cuando realizas una tirada de ataque contra 
   <content contentuid="h7ab53afeg6536g6c48g43eagddb5bf8b087e" version="1">Siempre que un objetivo maldito por tu Maleficio cae a 0 Puntos de Golpe, recuperas Puntos de Golpe iguales a 1d8 más tu modificador de Carisma.</content>
   <content contentuid="hf03aeb95g5dbbg3147g324cg388502cbfe2e" version="1">Cuando recibes daño de un objetivo maldito por tu Maleficio, puedes usar tu Reacción para reducir ese daño en 2d8 más tu modificador de Carisma. Puedes usar este rasgo un número de veces igual a tu modificador de Carisma, y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
   <content contentuid="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1">Maleficio Hambriento</content>
+  <content contentuid="h10cb65eeg6a98g7720g30f1g78e524e4746c" version="2">Dote: Formador de Runas</content>
+  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="1">Magia Rúnica. Conoces dos Runas de tu elección. Aprendes los conjuros de nivel 1 asociados a esas runas. Obtienes un espacio de conjuro de nivel 1, que solo puede usarse para lanzar estos conjuros. También puedes lanzar los conjuros asociados a tus runas usando cualquier otro espacio de conjuro que tengas.</content>
+  <content contentuid="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1">Dote de Origen: Golpe de los Gigantes</content>
+  <content contentuid="h603f364eg76f2g4896gd3eeg723e7e1e85a7" version="2">Has absorbido una magia primordial que te otorga un eco del poder de los gigantes. Una vez por turno, cuando Impactas a un objetivo con un Ataque de Arma Cuerpo a cuerpo o un Ataque de Arma arrojadiza, puedes imbuir el Ataque con un Efecto Adicional según el beneficio que hayas elegido. Puedes usar esta Dote un número de veces igual a tu Bonificador de Competencia, y recuperas todos los usos gastados cuando Completas un Descanso Largo.</content>
+  <content contentuid="hae3fe0d8g977dg32d2g8d96g1076ec054f12" version="1">Formador de Runas: Nube</content>
+  <content contentuid="hf833f73bg69acga9f0ge44cgf4535aeb7eb0" version="1">Magia Rúnica: Nube de Niebla</content>
+  <content contentuid="h7e25491bgcdfcgd62fg64efg5de054df9a4b" version="1">Formador de Runas: Muerte</content>
+  <content contentuid="h8fbead88gd309g353bg8b7eg0cdca78e0dc3" version="1">Magia Rúnica: Infligir Heridas</content>
+  <content contentuid="h345b47ffgf22agbac3gddbfge9b02faf01da" version="1">Formador de Runas: Dragón</content>
+  <content contentuid="h54e93aa2g6b82gf83ag6fc0gb3c23e1e69f0" version="1">Magia Rúnica: Orbe Cromático</content>
+  <content contentuid="he17575f1g698bg2af2gc68agefc0346fff1d" version="1">Formador de Runas: Enemigo</content>
+  <content contentuid="h4451430bg74bfg3059g8e83g01757cc64274" version="1">Magia Rúnica: Disfrazarse</content>
+  <content contentuid="hb1bbe7d1g9679g4858g76d5g7ca4dbccfb32" version="1">Formador de Runas: Fuego</content>
+  <content contentuid="haed744a2g4c33g682dg931fga03a3cb8accc" version="1">Magia Rúnica: Manos Ardientes</content>
+  <content contentuid="hd613bb26gebacgd838g6883g5d0665dcc0d3" version="1">Formador de Runas: Amigo</content>
+  <content contentuid="he3c616ddg7a67g533agd502g674ba56b5f05" version="1">Magia Rúnica: Hablar con los Animales</content>
+  <content contentuid="h45003f12g5083gf487g3135g1f85c593494d" version="1">Formador de Runas: Escarcha</content>
+  <content contentuid="h92a5d377g3049gaa2fg5da1g1684fd0e0522" version="1">Magia Rúnica: Armadura de Agatys</content>
+  <content contentuid="h01e56ec9g7adfgbda5ge6f7g054b1074d4e7" version="1">Formador de Runas: Colina</content>
+  <content contentuid="h78b41137g5f4ag08e5g9bf9ge8675ebd393a" version="1">Magia Rúnica: Bayas Mágicas</content>
+  <content contentuid="h3b97affag0be7g4766g647fgabd94ceeab08" version="1">Formador de Runas: Viaje</content>
+  <content contentuid="h2c48aa26gfa3eg1b84g4eebg5a36ae964f3a" version="1">Magia Rúnica: Paso Largo</content>
+  <content contentuid="h2f95a42aga999g405cg5db7g3c5d7d433885" version="1">Formador de Runas: Rey</content>
+  <content contentuid="hf7673e7dg1596g8d36g94a7gf2cd7cacba6c" version="1">Magia Rúnica: Orden</content>
+  <content contentuid="h145f13b6g8f61g8a7dg3b9bgedacd9e5018a" version="1">Formador de Runas: Montaña</content>
+  <content contentuid="hadaf370fga4c8g2b9aga0adg35693e522349" version="1">Magia Rúnica: Enredar</content>
+  <content contentuid="h58c70e9cg31c7g052bga794g85537d9ccf27" version="1">Formador de Runas: Piedra</content>
+  <content contentuid="hb8909774g6950g5bdeg7ee8g35bfc15c30b8" version="1">Magia Rúnica: Santuario</content>
+  <content contentuid="hc3be35cdgc708g90d8gd889g4e3c17f9482c" version="1">Formador de Runas: Tormenta</content>
+  <content contentuid="h34391a50g2410g5549g7d21gc1d16ce8f3eb" version="1">Magia Rúnica: Onda de Trueno</content>
+  <content contentuid="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1">Bigby Presents: Gloria de los Gigantes</content>
+  <content contentuid="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1">Bigby Presents: Gloria de los Gigantes</content>
+  <content contentuid="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1">Formador de Runas</content>
+  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="1">Magia Rúnica. Conoces Dos Runas de tu elección. Aprendes los Conjuros de nivel 1 asociados a esas Runas. Obtienes un Espacio de Conjuro de nivel 1, que solo puede usarse para lanzar estos Conjuros. También puedes lanzar los Conjuros asociados a tus Runas usando cualquier otro Espacio de Conjuro que tengas.</content>
 </contentList>

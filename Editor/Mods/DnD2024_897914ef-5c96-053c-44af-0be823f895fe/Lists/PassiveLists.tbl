@@ -331,5 +331,12 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Illrigger_11_TerrorizingForce_1,Illrigger_11_TerrorizingForce_2,Illrigger_11_TerrorizingForce_3,Illrigger_11_TerrorizingForce_4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0daa5cc-db0c-4f31-a082-c91dbb8e368f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Rune Shaper" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RuneShaper_Cloud,RuneShaper_Death,RuneShaper_Dragon,RuneShaper_Enemy,RuneShaper_Fire,RuneShaper_Friend,RuneShaper_Frost,RuneShaper_Hill,RuneShaper_Journey,RuneShaper_King,RuneShaper_Mountain,RuneShaper_Stone,RuneShaper_Storm" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

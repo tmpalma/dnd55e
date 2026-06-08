@@ -388,6 +388,17 @@
                     <attribute id="UUID" type="guid" value="8af37785-7ab1-4010-82f2-7fd226593ea1"/>
                 </node>
                 <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="BIGBY_FEAT"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,100)"/>
+                    <attribute id="UUID" type="guid" value="a263fddb-a375-4d0e-95ac-b5c1d60a2e63"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="RuneShaper"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RuneShaper"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b0daa5cc-db0c-4f31-a082-c91dbb8e368f,2);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="b44a9372-d1b0-4517-a9d0-e3a0df5d906c"/>
+                </node>
+                <node id="Feat">
                     <attribute id="Name" type="FixedString" value="FRHOF_ORIGIN_FEAT"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,100)"/>
                     <attribute id="UUID" type="guid" value="8828bdb8-33b0-4842-a328-974fdcd132fc"/>

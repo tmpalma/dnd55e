@@ -581,6 +581,23 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_99" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a263fddb-a375-4d0e-95ac-b5c1d60a2e63" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="BIGBY_FEAT" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Charisma',100)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_100" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b44a9372-d1b0-4517-a9d0-e3a0df5d906c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RuneShaper" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RuneShaper" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b0daa5cc-db0c-4f31-a082-c91dbb8e368f,2);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_58" />
         <field name="UUID" type="IdTableFieldDefinition" value="8828bdb8-33b0-4842-a328-974fdcd132fc" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="FRHOF_ORIGIN_FEAT" />

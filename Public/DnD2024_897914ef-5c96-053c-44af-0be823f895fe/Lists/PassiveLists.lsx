@@ -244,6 +244,11 @@
                     <attribute id="Passives" type="LSString" value="Illrigger_11_TerrorizingForce_1,Illrigger_11_TerrorizingForce_2,Illrigger_11_TerrorizingForce_3,Illrigger_11_TerrorizingForce_4"/>
                     <attribute id="UUID" type="guid" value="1dbdafe6-448d-4226-98a1-9007650a995f"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Rune Shaper"/>
+                    <attribute id="Passives" type="LSString" value="RuneShaper_Cloud,RuneShaper_Death,RuneShaper_Dragon,RuneShaper_Enemy,RuneShaper_Fire,RuneShaper_Friend,RuneShaper_Frost,RuneShaper_Hill,RuneShaper_Journey,RuneShaper_King,RuneShaper_Mountain,RuneShaper_Stone,RuneShaper_Storm"/>
+                    <attribute id="UUID" type="guid" value="b0daa5cc-db0c-4f31-a082-c91dbb8e368f"/>
+                </node>
             </children>
         </node>
     </region>

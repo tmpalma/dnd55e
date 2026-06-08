@@ -2188,7 +2188,7 @@ You gain 2 sorcery points to spend on Metamagic (these points are added to any s
   <content contentuid="hce732cf1g4e06ge110g8d34g08c428a3b974" version="1">Tasha’s Cauldron of Everything</content>
   <content contentuid="h0cb1e09cg436bgc901g0c7cg06f2eb6a1066" version="1">Dragon's Terror</content>
   <content contentuid="h7859cbddgc1d2g2fb6g37e8ge9fff27abfce" version="1">You can take a Magic action to instill terror in a creature you can see within 30 feet of yourself. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.</content>
-  <content contentuid="h0d2663e7ga6eag1b82g8e4bg4351babc6226" version="1">Feat: Cult of the Dragon Initiate</content>
+  <content contentuid="h0d2663e7ga6eag1b82g8e4bg4351babc6226" version="2">Origin Feat: Cult of the Dragon Initiate</content>
   <content contentuid="h5648b3eag0325g46d8g5cd1g0463117aab6a" version="4">Dragon's Terror. You can take a Magic action to instill terror in a creature you can see within 30 feet of yourself. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.
 
 Inspired by Fear. When you cause a creature to gain the Frightened condition and you are the source of its fear, you gain Heroic Inspiration. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</content>
@@ -2200,7 +2200,7 @@ Inspired by Fear. When you cause a creature to gain the Frightened condition and
 
 Inspired by Fear. When you cause a creature to gain the Frightened condition and you are the source of its fear, you gain Heroic Inspiration. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</content>
   <content contentuid="h131adc06g9cd1g7b27g9571g87157dc4b980" version="2">Cult of the Dragon Initiate</content>
-  <content contentuid="h9882b9efg772bg815eg465bg5671d559ae9f" version="1">Feat: Emerald Enclave Fledgling</content>
+  <content contentuid="h9882b9efg772bg815eg465bg5671d559ae9f" version="2">Origin Feat: Emerald Enclave Fledgling</content>
   <content contentuid="ha908486dgac97g5080g2fcdg248197559140" version="1">Speak with Animals. You always have the Speak with Animals spell prepared and can cast it with any spell slots you have.
 
 Tag Team. When you take the Help action, you can switch places with a willing ally within 5 feet of yourself as part of that same action. This movement doesn’t provoke Opportunity Attacks.</content>
@@ -2219,8 +2219,8 @@ Distracting Melody. When you take the Distract action to assist an ally’s atta
   <content contentuid="h4ee892fdg07d1g3e46ga80bg74e493bcf181" version="1">Inspiring Strike. Once per turn when you score a Critical Hit against a creature, you gain Heroic Inspiration.
 
 Reassert Honor. When an enemy you can see deals damage to you, you have Advantage on your next attack roll against that enemy before the end of your next turn.</content>
-  <content contentuid="h32098dd3g6f72g92eag10cbg76fc72c357c4" version="1">Feat: Harper Agent</content>
-  <content contentuid="hb61939ecg2158g4da3gadf9g7aace51ea588" version="1">Feat: Lords’ Alliance Agent</content>
+  <content contentuid="h32098dd3g6f72g92eag10cbg76fc72c357c4" version="2">Origin Feat: Harper Agent</content>
+  <content contentuid="hb61939ecg2158g4da3gadf9g7aace51ea588" version="2">Origin Feat: Lords’ Alliance Agent</content>
   <content contentuid="h6c140161ge881g7f60g8a89gbf47719d5f66" version="1">Inspiring Strike. Once per turn when you score a Critical Hit against a creature, you gain Heroic Inspiration.
 
 Reassert Honor. When an enemy you can see deals damage to you, you have Advantage on your next attack roll against that enemy before the end of your next turn.</content>
@@ -2230,7 +2230,7 @@ Reassert Honor. When an enemy you can see deals damage to you, you have Advantag
 
 Rallying Cry. You can choose a number of creatures equal to your Proficiency Bonus that you can see within 30 feet of yourself. Those creatures gain Heroic Inspiration. Once you use this benefit, you can’t do so again until you finish a Long Rest.</content>
   <content contentuid="ha118d2a1gbbb4gcfd3g1676g37accfee78d4" version="1">Purple Dragon Rook</content>
-  <content contentuid="h460435aaga1b3g7abbg15e5g3ca6334b18ec" version="1">Feat: Purple Dragon Rook</content>
+  <content contentuid="h460435aaga1b3g7abbg15e5g3ca6334b18ec" version="2">Origin Feat: Purple Dragon Rook</content>
   <content contentuid="h76a090b6gcb17g375dg822fgdf79bae4b00a" version="1">Entreat. You gain proficiency in Persuasion.
 
 Rallying Cry. You can choose a number of creatures equal to your Proficiency Bonus that you can see within 30 feet of yourself. Those creatures gain Heroic Inspiration. Once you use this benefit, you can’t do so again until you finish a Long Rest.</content>
@@ -2240,7 +2240,7 @@ Rallying Cry. You can choose a number of creatures equal to your Proficiency Bon
   <content contentuid="hdefd07e9gac32g3227g03d6g27116876f808" version="1">Magic Absorption. Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4.
 
 Spellfire Flame. You learn the Sacred Flame cantrip. You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</content>
-  <content contentuid="hd178e099gb659g6341ga121g62c3fe95197b" version="1">Feat: Spellfire Spark</content>
+  <content contentuid="hd178e099gb659g6341ga121g62c3fe95197b" version="2">Origin Feat: Spellfire Spark</content>
   <content contentuid="h5b07f997g2114g17b3gd384gcaa505b50750" version="1">Magic Absorption. Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4.
 
 Spellfire Flame. You learn the Sacred Flame cantrip. You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</content>
@@ -2256,9 +2256,9 @@ Spellfire Flame. You learn the Sacred Flame cantrip. You can also cast this cant
   <content contentuid="h35e74b0fg788bg373bg7feag7976ce468738" version="2">Exploit Opening. When you roll damage for an Opportunity Attack, you can roll the damage dice twice and use either roll against the target.
 
 Family First. Once per Long Rest, you grant yourself and allies within 30 feet of you Advantage on Initiative rolls.</content>
-  <content contentuid="hcdc555cfg9d57g4360g3b62gca191ef8dbeb" version="1">Feat: Tyro of the Gauntlet</content>
+  <content contentuid="hcdc555cfg9d57g4360g3b62gca191ef8dbeb" version="2">Origin Feat: Tyro of the Gauntlet</content>
   <content contentuid="hae5d214ag6792g7325g5146gf48dfd5f7239" version="1">Stand as One. When an ally within 5 feet of you is subjected to an effect that would push or pull it, you can take a Reaction to prevent that ally from being pushed or pulled. To receive this benefit, the ally can’t have the Incapacitated condition.</content>
-  <content contentuid="hc035112fg126ag11d6gfb7dg336a2c68d5d8" version="1">Feat: Zhentarim Ruffian</content>
+  <content contentuid="hc035112fg126ag11d6gfb7dg336a2c68d5d8" version="2">Origin Feat: Zhentarim Ruffian</content>
   <content contentuid="hb6c99f09gddf8gda0ag3134gfda7f384b17d" version="2">Exploit Opening. When you roll damage for an Opportunity Attack, you can roll the damage dice twice and use either roll against the target.
 
 Family First. Once per Long Rest, you grant yourself and allies within 30 feet of you Advantage on Initiative rolls.</content>
@@ -4349,4 +4349,38 @@ Inevitable Blade. Once per turn, when you make an attack roll against a target c
   <content contentuid="h7ab53afeg6536g6c48g43eagddb5bf8b087e" version="1">Whenever a target cursed by your Hex drops to 0 Hit Points, you regain Hit Points equal to 1d8 plus your Charisma modifier.</content>
   <content contentuid="hf03aeb95g5dbbg3147g324cg388502cbfe2e" version="1">When you take damage from a target cursed by your Hex, you can take a Reaction to reduce that damage by 2d8 plus your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier, and you regain all expended uses when you finish a Long Rest.</content>
   <content contentuid="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1">Hungering Hex</content>
+  <content contentuid="h10cb65eeg6a98g7720g30f1g78e524e4746c" version="2">Feat: Rune Shaper</content>
+  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="1">Rune Magic. You know two runes of your choice from the Rune Spells table. You learn the 1st-level spells associated with those runes, as shown in the Rune Spells table. You gain one 1st-level spell slot, which can be used only to cast these spells. You can also cast the spells associated with your runes using any other spell slots you have.</content>
+  <content contentuid="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1">Origin Feat: Strike of the Giants</content>
+  <content contentuid="h603f364eg76f2g4896gd3eeg723e7e1e85a7" version="2">You have absorbed primeval magic that gives you an echo of the might of giants. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose. You can use this feat a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
+  <content contentuid="hae3fe0d8g977dg32d2g8d96g1076ec054f12" version="1">Rune Shaper: Cloud</content>
+  <content contentuid="hf833f73bg69acga9f0ge44cgf4535aeb7eb0" version="1">Rune Magic: Fog cloud</content>
+  <content contentuid="h7e25491bgcdfcgd62fg64efg5de054df9a4b" version="1">Rune Shaper: Death</content>
+  <content contentuid="h8fbead88gd309g353bg8b7eg0cdca78e0dc3" version="1">Rune Magic: Inflict wounds</content>
+  <content contentuid="h345b47ffgf22agbac3gddbfge9b02faf01da" version="1">Rune Shaper: Dragon</content>
+  <content contentuid="h54e93aa2g6b82gf83ag6fc0gb3c23e1e69f0" version="1">Rune Magic: Chromatic orb</content>
+  <content contentuid="he17575f1g698bg2af2gc68agefc0346fff1d" version="1">Rune Shaper: Enemy</content>
+  <content contentuid="h4451430bg74bfg3059g8e83g01757cc64274" version="1">Rune Magic: Disguise self</content>
+  <content contentuid="hb1bbe7d1g9679g4858g76d5g7ca4dbccfb32" version="1">Rune Shaper: Fire</content>
+  <content contentuid="haed744a2g4c33g682dg931fga03a3cb8accc" version="1">Rune Magic: Burning hands</content>
+  <content contentuid="hd613bb26gebacgd838g6883g5d0665dcc0d3" version="1">Rune Shaper: Friend</content>
+  <content contentuid="he3c616ddg7a67g533agd502g674ba56b5f05" version="1">Rune Magic: Speak with animals</content>
+  <content contentuid="h45003f12g5083gf487g3135g1f85c593494d" version="1">Rune Shaper: Frost</content>
+  <content contentuid="h92a5d377g3049gaa2fg5da1g1684fd0e0522" version="1">Rune Magic: Armor of Agathys</content>
+  <content contentuid="h01e56ec9g7adfgbda5ge6f7g054b1074d4e7" version="1">Rune Shaper: Hill</content>
+  <content contentuid="h78b41137g5f4ag08e5g9bf9ge8675ebd393a" version="1">Rune Magic: Goodberry</content>
+  <content contentuid="h3b97affag0be7g4766g647fgabd94ceeab08" version="1">Rune Shaper: Journey</content>
+  <content contentuid="h2c48aa26gfa3eg1b84g4eebg5a36ae964f3a" version="1">Rune Magic: Longstrider</content>
+  <content contentuid="h2f95a42aga999g405cg5db7g3c5d7d433885" version="1">Rune Shaper: King</content>
+  <content contentuid="hf7673e7dg1596g8d36g94a7gf2cd7cacba6c" version="1">Rune Magic: Command</content>
+  <content contentuid="h145f13b6g8f61g8a7dg3b9bgedacd9e5018a" version="1">Rune Shaper: Mountain</content>
+  <content contentuid="hadaf370fga4c8g2b9aga0adg35693e522349" version="1">Rune Magic: Entangle</content>
+  <content contentuid="h58c70e9cg31c7g052bga794g85537d9ccf27" version="1">Rune Shaper: Stone</content>
+  <content contentuid="hb8909774g6950g5bdeg7ee8g35bfc15c30b8" version="1">Rune Magic: Sanctuary</content>
+  <content contentuid="hc3be35cdgc708g90d8gd889g4e3c17f9482c" version="1">Rune Shaper: Storm</content>
+  <content contentuid="h34391a50g2410g5549g7d21gc1d16ce8f3eb" version="1">Rune Magic: Thunderwave</content>
+  <content contentuid="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1">Bigby Presents: Glory of the Giants</content>
+  <content contentuid="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1">Bigby Presents: Glory of the Giants</content>
+  <content contentuid="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1">Rune Shaper</content>
+  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="1">Rune Magic. You know two runes of your choice from the Rune Spells table. You learn the 1st-level spells associated with those runes, as shown in the Rune Spells table. You gain one 1st-level spell slot, which can be used only to cast these spells. You can also cast the spells associated with your runes using any other spell slots you have.</content>
 </contentList>

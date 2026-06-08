@@ -583,6 +583,26 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_92" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f71220cb-5281-426c-8611-ec401a872eb9" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="a263fddb-a375-4d0e-95ac-b5c1d60a2e63" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="BIGBY_FEAT" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_93" />
+        <field name="UUID" type="IdTableFieldDefinition" value="852ca1d9-be49-4f3e-9ba9-271ce264deaa" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="b44a9372-d1b0-4517-a9d0-e3a0df5d906c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h59358ad8g6cf9g5327ga84dg411f42012881" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="RuneShaper" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_52" />
         <field name="UUID" type="IdTableFieldDefinition" value="c738d751-622e-41ac-b4e2-55d4d51a073e" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="8828bdb8-33b0-4842-a328-974fdcd132fc" />

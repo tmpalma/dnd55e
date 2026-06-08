@@ -1,5 +1,5 @@
 # Race
-## Aasimar (Select as a Human Level 1 Passive)
+## Aasimar (Human Subclass Option)
 - Creature Type: Humanoid
 - Size: Medium (about 4–7 feet tall)
 - Speed: 30 feet
@@ -8,7 +8,7 @@
 - Healing Hands
 - Light Bearer
 - Celestial Revelation
-## Dhampir (Select as a Human Level 1 Passive)
+## Dhampir (Human Subclass Option)
 - Creature Type: Humanoid
 - Size: Medium (about 4–7 feet tall)
 - Speed: 35 feet
@@ -65,7 +65,7 @@
 - Speed: 30 feet
 - Darkvision
 - Gnomish Cunning
-## Goliath (Select as a Human Level 1 Passive)
+## Goliath (Human Subclass Option)
 - Creature Type: Humanoid
 - Size: Medium (about 7–8 feet tall)
 - Speed: 35 feet
@@ -109,7 +109,7 @@
 - Resourceful
 - Skillful
 - Versatile
-## Kalashtar (Select as a Human Level 1 Passive)
+## Kalashtar (Human Subclass Option)
 - Creature Type: Humanoid
 - Size: Medium (about 6–7 feet tall)
 - Speed: 30 feet

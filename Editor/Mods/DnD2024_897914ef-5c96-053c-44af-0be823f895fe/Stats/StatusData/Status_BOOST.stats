@@ -385,6 +385,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c819a783-ca1f-426c-8817-46e8e75d1a5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DUAL_WIELDER_NICK" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DUAL_WIELDER_NICK" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_OffhandAttack_DualWielder);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a7b17d83-7fd3-40b2-b375-2460b506eb8f" />
         <field name="Name" type="NameTableFieldDefinition" value="BLOODED" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haed19d90g7118gfa81g42d5gba4d717eba4c" version="1" />

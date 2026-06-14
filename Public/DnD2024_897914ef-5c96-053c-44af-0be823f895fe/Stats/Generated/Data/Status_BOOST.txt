@@ -302,6 +302,15 @@ data "Boosts" "AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHa
 data "StatusPropertyFlags" "ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "IsUnique" "1"
 
+new entry "DUAL_WIELDER_NICK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "DUAL_WIELDER_NICK"
+data "StackType" "Overwrite"
+data "TickType" "StartTurn"
+data "Boosts" "UnlockSpell(Target_OffhandAttack_DualWielder);"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 new entry "BLOODED"
 type "StatusData"
 data "StatusType" "BOOST"

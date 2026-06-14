@@ -20,6 +20,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37637d34-01df-480c-a796-d3e7c401a2e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="OffhandAttack_DualWielder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34c87ba1-754a-4700-9178-d939ad7003c6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2dc581b0-965b-4cd5-afdf-5ec4f778afe8" />
         <field name="Name" type="NameTableFieldDefinition" value="Help" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e38549b5-0d0b-40c1-a46d-7a4cdb92e490" />

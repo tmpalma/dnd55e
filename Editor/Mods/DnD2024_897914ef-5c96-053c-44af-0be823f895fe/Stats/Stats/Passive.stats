@@ -7367,6 +7367,10 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8ebf055f-009b-477a-9a7f-157f6e26b738" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ed3574cg898aga3cage4bcg72bfa5e60a5c" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('WEAPONMASTERY_NICK',context.Source) and IsMeleeWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DUAL_WIELDER_NICK,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

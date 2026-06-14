@@ -11,6 +11,12 @@ using "Target_MainHandAttack"
 data "DualWieldingUseCosts" "NickActionPoint:1"
 data "SpellFlags" "IsAttack;IsMelee;IsHarmful;CanDualWield"
 
+new entry "Target_OffhandAttack_DualWielder"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_OffhandAttack"
+data "SpellFlags" "IsMelee;IsHarmful;Temporary"
+
 new entry "Target_Help"
 type "SpellData"
 data "SpellType" "Target"

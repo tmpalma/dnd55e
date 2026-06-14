@@ -124,7 +124,7 @@
                     <attribute id="UUID" type="guid" value="413644a9-3cb5-4f76-980a-bf2397dcac3d"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="4"/>
+                    <attribute id="Description" type="TranslatedString" handle="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="7"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hfa2c5254ge5fag62b7gffb6g392787c61974" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="DualWielder"/>
                     <attribute id="FeatId" type="guid" value="f692f7b5-ffd5-4942-91a1-a71ebb2f5e7c"/>

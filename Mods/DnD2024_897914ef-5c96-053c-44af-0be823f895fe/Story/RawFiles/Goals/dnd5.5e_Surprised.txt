@@ -16,9 +16,7 @@ GetFaction(_Player, _FactionPlayer)
 THEN
 ApplyStatus(_Character, "SURPRISED_PENALTY", 6.0, 1, _Character);
 LeaveCombat(_Character);
-SetRelation((FACTION)_FactionPlayer, (FACTION)_FactionNPC, 0);
 SetHostileAndEnterCombat((FACTION)_FactionPlayer, (FACTION)_FactionNPC, (GUIDSTRING)_Player, (GUIDSTRING)_Character);
-
 EXITSECTION
 
 ENDEXITSECTION

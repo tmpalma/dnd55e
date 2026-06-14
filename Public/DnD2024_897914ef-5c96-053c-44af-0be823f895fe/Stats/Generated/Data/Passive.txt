@@ -2599,12 +2599,8 @@ data "Icon" "Action_UmbralCloak"
 data "PriorityOrder" "8203"
 data "Properties" "Highlighted;OncePerTurn"
 data "StatsFunctorContext" "OnObscurityChanged"
-data "Conditions" "(HasObscuredState(ObscuredState.HeavilyObscured) or HasObscuredState(ObscuredState.LightlyObscured)) and not HasStatus('SEE_INVISIBILITY_REVEAL') and not HasStatus('FAERIE_FIRE') and not HasStatus('BRANDING_SMITE');"
+data "Conditions" "(HasObscuredState(ObscuredState.HeavilyObscured) or HasObscuredState(ObscuredState.LightlyObscured)) and not HasStatus('SEE_INVISIBILITY_REVEAL') and not HasStatus('FAERIE_FIRE') and not HasStatus('BRANDING_SMITE') and Combat();"
 data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(INVISIBILITY,100,1);CreateExplosion(Projectile_Shadowblend_Effect);"
-
-new entry "New_Stat_0"
-type "PassiveData"
-using "ShadowyRetreat"
 
 new entry "DreadAmbusher"
 type "PassiveData"

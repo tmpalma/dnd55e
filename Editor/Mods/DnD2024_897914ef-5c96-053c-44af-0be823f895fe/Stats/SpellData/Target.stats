@@ -693,7 +693,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f315172g0ecag6f6ag14c9g3d5db880a811" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="2" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
@@ -3189,6 +3189,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5c8a2c2gcb05g89ceg701dg519dda931a2d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3199,6 +3200,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc24592adg7667g3703g77f3g28bd0167f967" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3209,6 +3211,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a605fbbg9e30g5d2fg99cfge3895f1bc658" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3219,6 +3222,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d8e9323g4462gb81dg88e1g83c02f1a2c2b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3229,6 +3233,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heee3ac7dg3b5cg3d93geb1dgae3f70c163c3" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3239,6 +3244,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2effdbc6g3649ga065g631ag652379eb3394" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3249,6 +3255,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h743085a1g10dfg57d1g29eagd8357d3c8d91" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3259,6 +3266,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h86e6e70dg96a1gf0b3g1ac9g183926c4fc52" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3269,6 +3277,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab03ad6cgd566g99b9g7354g5588d613d94d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3279,6 +3288,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8816ef8fg0960g42a5g2260g3c275dbbd0f6" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

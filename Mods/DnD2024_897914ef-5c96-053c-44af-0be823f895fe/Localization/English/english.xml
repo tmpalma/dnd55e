@@ -1264,7 +1264,9 @@ At the end of each turn, there is a chance it reappears in the Material Plane.</
   <content contentuid="hb2960ca9g49d7g3639g1356g1d818e28a64a" version="1">Chromatic Orb: Thunder</content>
   <content contentuid="h98e647d7g3e90gc1ebg704eg55fb50319328" version="1">Hurl a sphere of thunderous energy.</content>
   <content contentuid="h3f315172g0ecag6f6ag14c9g3d5db880a811" version="1">Cloud of Daggers</content>
-  <content contentuid="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="1">Conjure a cloud of spinning daggers that attack anyone inside.</content>
+  <content contentuid="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="2">You conjure spinning daggers in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in that area takes Slashing damage. A creature also takes this damage if it ends its turn there or if the Cylinder moves into its space. A creature takes this damage only once per turn.
+
+On your later turns, you can take a Magic action to move the Cylinder up to 30 feet.</content>
   <content contentuid="h81c2ba2bgde76gcf4dgb0feg9c1e82f5c048" version="1">Move Cloud of Daggers</content>
   <content contentuid="h397f04c0gccd3gd295ga021g620c652c55a6" version="1">Take a Magic action to teleport the daggers up to 30 feet.</content>
   <content contentuid="h933efb07gb6d9g6ac3g1616gcb30169f9ef8" version="1">Move Cloud of Daggers</content>
@@ -4554,4 +4556,29 @@ You and your allies in the projection gain a +2 bonus to Intelligence, Wisdom, a
   <content contentuid="hae8c9a5cgf06dg6b71gb093ge2e25716f7d2" version="1">Your innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.</content>
   <content contentuid="h442cd917g6095gef57g713bg55e902c18ad3" version="1">Wild Magic Sorcery</content>
   <content contentuid="h18ed8a2cgfbfbgc16ag59c2gdbdf16bfd5ca" version="1">Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</content>
+  <content contentuid="hb5c8a2c2gcb05g89ceg701dg519dda931a2d" version="1">A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
+
+When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes Radiant damage. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it ends its turn there. A creature makes this save only once per turn.</content>
+  <content contentuid="hc24592adg7667g3703g77f3g28bd0167f967" version="1">A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
+
+When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes Radiant damage. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it ends its turn there. A creature makes this save only once per turn.</content>
+  <content contentuid="h2a605fbbg9e30g5d2fg99cfge3895f1bc658" version="1">A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
+
+When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes Radiant damage. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it ends its turn there. A creature makes this save only once per turn.</content>
+  <content contentuid="h3d8e9323g4462gb81dg88e1g83c02f1a2c2b" version="1">A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
+
+When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes Radiant damage. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it ends its turn there. A creature makes this save only once per turn.</content>
+  <content contentuid="heee3ac7dg3b5cg3d93geb1dgae3f70c163c3" version="1">A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
+
+When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes Radiant damage. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it ends its turn there. A creature makes this save only once per turn.</content>
+  <content contentuid="h2effdbc6g3649ga065g631ag652379eb3394" version="1">Move the beam of moonlight up to [1].</content>
+  <content contentuid="h743085a1g10dfg57d1g29eagd8357d3c8d91" version="1">Move the beam of moonlight up to [1].</content>
+  <content contentuid="h86e6e70dg96a1gf0b3g1ac9g183926c4fc52" version="1">Move the beam of moonlight up to [1].</content>
+  <content contentuid="hab03ad6cgd566g99b9g7354g5588d613d94d" version="1">Move the beam of moonlight up to [1].</content>
+  <content contentuid="h8816ef8fg0960g42a5g2260g3c275dbbd0f6" version="1">Move the beam of moonlight up to [1].</content>
+  <content contentuid="h3b399006gee4aga14cgffd2g777d4701d99c" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
+  <content contentuid="hb80e1becg530fgfb62gb3a6gb00bb6635067" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
+  <content contentuid="hdaa04befg3a9bg9a3dga72eg04c235ed8c01" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
+  <content contentuid="h46e9e82fg3994g14dageffdg4ecef2102490" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
+  <content contentuid="he983b2f2gd458g80bdg28d9g76d209dcf6d6" version="1">Spinning daggers fill the air. Anyone who ends their turn inside the whirlwind takes [1].</content>
 </contentList>

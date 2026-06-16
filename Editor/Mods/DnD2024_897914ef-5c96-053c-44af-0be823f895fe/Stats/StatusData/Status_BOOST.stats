@@ -752,6 +752,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="646c3b4e-4ff8-4b2f-8102-0f0c0518e158" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e3a5cc31-1ea3-4b15-a397-19c8772b8e8b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b399006gee4aga14cgffd2g777d4701d99c" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -759,6 +760,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4fd136f9-fae1-4d0e-bce2-14d0abc78c72" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="320b7a3e-5809-4652-a50f-4d958f0ffc71" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb80e1becg530fgfb62gb3a6gb00bb6635067" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -766,6 +768,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a605d01c-32b8-4f46-94fe-d095e5003d68" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ebdaf0ef-c688-46a1-8483-bb880b3feb50" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdaa04befg3a9bg9a3dga72eg04c235ed8c01" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -773,6 +776,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="349e3713-6e60-4032-9396-0e5e814e9796" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4112fcc2-e254-4d63-8156-2bee8f019c2f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46e9e82fg3994g14dageffdg4ecef2102490" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -780,6 +784,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c31a5dbb-c7ed-4c9c-a252-179ed32af921" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dd5c583a-2d13-4dd0-add3-0c9991b2fe52" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he983b2f2gd458g80bdg28d9g76d209dcf6d6" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -2,114 +2,169 @@
 -- 1. If a spell is NOT listed in SPELL_CLASS_MAP, it can always be used.
 -- 2. If a spell IS listed, it can only be used by characters who meet at least one
 --    of the listed class requirements.
--- 3. Wizard-list proxy classes (e.g. Arcane Trickster, Eldritch Knight, etc.)
--- are treated as Wizards for scroll usage when their level requirement is met.
+-- 3. The character must have a spell slot level equal to or higher than (spell level - 1).
+-- 4. Wizard-list proxy classes (Arcane Trickster, Eldritch Knight, etc.)
+--    contribute 1/3 caster levels when WIZARD_PROXY is present.
+-- 5. Warlock is treated as a full caster for slot progression.
 
 local SPELL_CLASS_MAP = {
-    Projectile_ChainLightning = 'Sorcerer Wizard',
-    Projectile_Disintegrate = 'Sorcerer Wizard',
-    Projectile_Fireball = 'Sorcerer Wizard',
+    Projectile_ChainLightning = '6 Sorcerer Wizard',
+    Projectile_Disintegrate = '6 Sorcerer Wizard',
+    Projectile_Fireball = '3 Sorcerer Wizard',
 
-    Shout_Blink = 'Sorcerer Wizard Artificer',
-    Shout_FireShield = 'Druid Sorcerer Wizard',
-    Shout_FireShield_Warm = 'Druid Sorcerer Wizard',
-    Shout_FireShield_Chill = 'Druid Sorcerer Wizard',
-    Shout_FlameBlade = 'Druid Sorcerer',
+    Shout_Blink = '3 Sorcerer Wizard Artificer',
+    Shout_FireShield = '4 Druid Sorcerer Wizard',
+    Shout_FireShield_Warm = '4 Druid Sorcerer Wizard',
+    Shout_FireShield_Chill = '4 Druid Sorcerer Wizard',
+    Shout_FlameBlade = '2 Druid Sorcerer',
 
-    Target_Blight = 'Druid Sorcerer Warlock Wizard',
-    Target_CircleOfDeath = 'Sorcerer Warlock Wizard',
-    Target_Cloudkill = 'Sorcerer Wizard',
-    Target_Confusion = 'Bard Druid Sorcerer Wizard',
-    Target_ConjureElemental_Container = 'Druid Wizard',
-    Target_ConjureElementals_Minor_Container = 'Druid Wizard',
-    Target_DominatePerson = 'Bard Sorcerer Wizard ',
-    Target_Eyebite = 'Bard Sorcerer Warlock Wizard',
-    Target_FeignDeath = 'Bard Cleric Druid Wizard',
-    Target_FleshToStone = 'Druid Sorcerer Wizard',
-    Target_Fly = 'Sorcerer Warlock Wizard Artificer',
-    Target_FreezingSphere = 'Sorcerer Wizard',
-    Target_GaseousForm = 'Sorcerer Warlock Wizard',
-    Target_GlobeOfInvulnerability = 'Sorcerer Wizard',
-    Target_GlyphOfWarding = 'Bard Cleric Wizard Artificer',
-    Target_Haste = 'Sorcerer Wizard Artificer',
-    Target_HoldMonster = 'Bard Sorcerer Warlock Wizard',
-    Target_HypnoticPattern = 'Bard Sorcerer Warlock Wizard',
-    Target_IceStorm = 'Druid Sorcerer Wizard',
-    Target_Invisibility_Greater = 'Bard Sorcerer Wizard',
-    Target_IrresistibleDance = 'Bard Wizard',
-    Target_PhantasmalKiller = 'Bard Wizard',
-    Target_PlanarBinding = 'Bard Cleric Druid Warlock Wizard',
-    Target_Polymorph = 'Bard Druid Sorcerer Wizard',
-    Target_ProtectionFromEnergy = 'Cleric Druid Ranger Sorcerer Wizard Artificer',
-    Target_ResilientSphere = 'Wizard Artificer',
-    Target_Seeming = 'Bard Sorcerer Wizard',
-    Target_SleetStorm = 'Druid Sorcerer Wizard',
-    Target_Slow = 'Bard Sorcerer Wizard',
-    Target_StinkingCloud = 'Bard Sorcerer Wizard',
-    Target_Stoneskin = 'Druid Ranger Sorcerer Wizard Artificer',
-    Target_VampiricTouch = 'Sorcerer Warlock Wizard',
+    Target_Blight = '4 Druid Sorcerer Warlock Wizard',
+    Target_CircleOfDeath = '6 Sorcerer Warlock Wizard',
+    Target_Cloudkill = '5 Sorcerer Wizard',
+    Target_Confusion = '3 Bard Druid Sorcerer Wizard',
+    Target_ConjureElemental_Container = '5 Druid Wizard',
+    Target_ConjureElementals_Minor_Container = '4 Druid Wizard',
+    Target_DominatePerson = '5 Bard Sorcerer Wizard',
+    Target_Eyebite = '6 Bard Sorcerer Warlock Wizard',
+    Target_FeignDeath = '3 Bard Cleric Druid Wizard',
+    Target_FleshToStone = '6 Druid Sorcerer Wizard',
+    Target_Fly = '3 Sorcerer Warlock Wizard Artificer',
+    Target_FreezingSphere = '6 Sorcerer Wizard',
+    Target_GaseousForm = '3 Sorcerer Warlock Wizard',
+    Target_GlobeOfInvulnerability = '6 Sorcerer Wizard',
+    Target_GlyphOfWarding = '3 Bard Cleric Wizard Artificer',
+    Target_Haste = '3 Sorcerer Wizard Artificer',
+    Target_HoldMonster = '5 Bard Sorcerer Warlock Wizard',
+    Target_HypnoticPattern = '3 Bard Sorcerer Warlock Wizard',
+    Target_IceStorm = '4 Druid Sorcerer Wizard',
+    Target_Invisibility_Greater = '4 Bard Sorcerer Wizard',
+    Target_IrresistibleDance = '6 Bard Wizard',
+    Target_PhantasmalKiller = '4 Bard Wizard',
+    Target_PlanarBinding = '5 Bard Cleric Druid Warlock Wizard',
+    Target_Polymorph = '4 Bard Druid Sorcerer Wizard',
+    Target_ProtectionFromEnergy = '3 Cleric Druid Ranger Sorcerer Wizard Artificer',
+    Target_ResilientSphere = '4 Wizard Artificer',
+    Target_Seeming = '5 Bard Sorcerer Wizard',
+    Target_SleetStorm = '3 Druid Sorcerer Wizard',
+    Target_Slow = '3 Bard Sorcerer Wizard',
+    Target_StinkingCloud = '3 Bard Sorcerer Wizard',
+    Target_Stoneskin = '4 Druid Ranger Sorcerer Wizard Artificer',
+    Target_VampiricTouch = '3 Sorcerer Warlock Wizard',
 
-    Teleportation_DimensionDoor = 'Bard Sorcerer Warlock Wizard',
-    Throw_Telekinesis = 'Sorcerer Wizard',
-    Wall_WallOfFire = 'Druid Sorcerer Wizard',
-    Wall_WallOfIce = 'Wizard',
-    Wall_WallOfStone = 'Druid Sorcerer Wizard Artificer',
+    Teleportation_DimensionDoor = '4 Bard Sorcerer Warlock Wizard',
+    Throw_Telekinesis = '5 Sorcerer Wizard',
+    Wall_WallOfFire = '4 Druid Sorcerer Wizard',
+    Wall_WallOfIce = '6 Wizard',
+    Wall_WallOfStone = '5 Druid Sorcerer Wizard Artificer',
 
-    Zone_ConeOfCold = 'Druid Sorcerer Wizard',
-    Zone_Fear = 'Bard Sorcerer Warlock Wizard',
-    Zone_LightningBolt = 'Sorcerer Wizard',
-    Zone_Sunbeam = 'Cleric Druid Sorcerer Wizard',
+    Zone_ConeOfCold = '5 Druid Sorcerer Wizard',
+    Zone_Fear = '3 Bard Sorcerer Warlock Wizard',
+    Zone_LightningBolt = '3 Sorcerer Wizard',
+    Zone_Sunbeam = '6 Cleric Druid Sorcerer Wizard',
 }
 
-local function GetSpellClass(spell)
-    return SPELL_CLASS_MAP[spell] or 'Wizard'
-end
+local MULTICLASS_SLOT_LEVEL = {
+    [1]  = 1, [2]  = 1,
+    [3]  = 2, [4]  = 2,
+    [5]  = 3, [6]  = 3,
+    [7]  = 4, [8]  = 4,
+    [9]  = 5, [10] = 5,
+    [11] = 6, [12] = 6,
+    [13] = 7, [14] = 7,
+    [15] = 8, [16] = 8,
+    [17] = 9, [18] = 9, [19] = 9, [20] = 9,
+}
 
 local function HasToken(clsLower, tokenLower)
-    return clsLower:find(tokenLower, 1, true) ~= nil
+    -- 단어 경계 매칭을 통해 정확한 클래스명만 필터링
+    return string.match(clsLower, "%f[%a]" .. tokenLower .. "%f[%A]") ~= nil
+end
+
+local function ParseSpellInfo(spell)
+    local data = SPELL_CLASS_MAP[spell]
+    if not data then return nil, nil end
+
+    local spellLevel, classList = data:match("^(%d+)%s+(.+)$")
+    return tonumber(spellLevel), classList
+end
+
+local function GetCasterLevelForSpell(entity, cls, isWizardProxy)
+    local casterLevel = 0
+
+    -- Full casters
+    if HasToken(cls, 'bard') then casterLevel = casterLevel + entity.GetClassLevel('Bard') end
+    if HasToken(cls, 'cleric') then casterLevel = casterLevel + entity.GetClassLevel('Cleric') end
+    if HasToken(cls, 'druid') then casterLevel = casterLevel + entity.GetClassLevel('Druid') end
+    if HasToken(cls, 'sorcerer') then casterLevel = casterLevel + entity.GetClassLevel('Sorcerer') end
+    if HasToken(cls, 'warlock') then casterLevel = casterLevel + entity.GetClassLevel('Warlock') end
+    if HasToken(cls, 'wizard') then casterLevel = casterLevel + entity.GetClassLevel('Wizard') end
+
+    -- Half casters
+    if HasToken(cls, 'artificer') then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Artificer') / 2) end
+    if HasToken(cls, 'paladin') then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Paladin') / 2) end
+    if HasToken(cls, 'ranger') then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Ranger') / 2) end
+
+    -- Third casters (using cached isWizardProxy)
+    if HasToken(cls, 'wizard') and isWizardProxy then
+        if entity.GetClassLevel('Rogue') >= 3 then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Rogue') / 3) end
+        if entity.GetClassLevel('Fighter') >= 3 then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Fighter') / 3) end
+        if entity.GetClassLevel('Illrigger') >= 3 then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Illrigger') / 3) end
+        if entity.GetClassLevel('Gunslinger') >= 3 then casterLevel = casterLevel + math.floor(entity.GetClassLevel('Gunslinger') / 3) end
+        if entity.GetClassLevel('MonsterHunter') >= 3 then casterLevel = casterLevel + math.floor(entity.GetClassLevel('MonsterHunter') / 3) end
+    end
+
+    return casterLevel
+end
+
+local function GetHighestSpellSlotLevel(entity, cls, isWizardProxy)
+    local casterLevel = GetCasterLevelForSpell(entity, cls, isWizardProxy)
+    
+    if casterLevel <= 0 then return 0 end
+    
+    -- 캐스터 레벨이 20을 초과할 경우를 대비한 안전 장치
+    local safeLevel = math.min(casterLevel, 20)
+    return MULTICLASS_SLOT_LEVEL[safeLevel] or 0
 end
 
 function CanUseSpellScroll(spell, entity)
     entity = entity or context.Source
 
-    -- If the spell is not listed, it is always allowed.
+    -- Rule 1: Spells not listed are always usable.
     if SPELL_CLASS_MAP[spell] == nil then
         return ConditionResult(true)
     end
 
-    local spellClass = GetSpellClass(spell)
+    local spellLevel, spellClass = ParseSpellInfo(spell)
     local cls = spellClass:lower()
 
-    -- base class access flags
-    local artificer = entity.GetClassLevel('Artificer') >= 1
-    local bard      = entity.GetClassLevel('Bard')      >= 1
-    local cleric    = entity.GetClassLevel('Cleric')    >= 1
-    local druid     = entity.GetClassLevel('Druid')     >= 1
-    local paladin   = entity.GetClassLevel('Paladin')   >= 1
-    local ranger    = entity.GetClassLevel('Ranger')    >= 1
-    local sorcerer  = entity.GetClassLevel('Sorcerer')  >= 1
-    local warlock   = entity.GetClassLevel('Warlock')   >= 1
-    local wizard    = entity.GetClassLevel('Wizard')    >= 1
+    -- 성능 최적화: Tagged 조회를 한 번만 실행
+    local isWizardProxyTag = Tagged('WIZARD_PROXY', entity).Result
+    local isWizardProxy = isWizardProxyTag and (
+        entity.GetClassLevel('Rogue') >= 3 or
+        entity.GetClassLevel('Illrigger') >= 3 or
+        entity.GetClassLevel('Fighter') >= 3 or
+        entity.GetClassLevel('Gunslinger') >= 3 or
+        entity.GetClassLevel('MonsterHunter') >= 3
+    )
 
-    -- wizard-list proxies (tag + level gated)
-    local wizardProxy =
-        (Tagged('WIZARD_PROXY', entity).Result and entity.GetClassLevel('Rogue') >= 3)
-     or (Tagged('WIZARD_PROXY', entity).Result and entity.GetClassLevel('Illrigger') >= 3)
-     or (Tagged('WIZARD_PROXY', entity).Result and entity.GetClassLevel('Fighter') >= 3)
-     or (Tagged('WIZARD_PROXY', entity).Result and entity.GetClassLevel('Gunslinger') >= 3)
-     or (Tagged('WIZARD_PROXY', entity).Result and entity.GetClassLevel('MonsterHunter') >= 3)
-
+    -- Rule 2: Check if character meets class requirements
     local canUse =
-        (HasToken(cls, 'bard') and bard)
-     or (HasToken(cls, 'artificer') and artificer)
-     or (HasToken(cls, 'cleric') and cleric)
-     or (HasToken(cls, 'druid') and druid)
-     or (HasToken(cls, 'paladin') and paladin)
-     or (HasToken(cls, 'psion') and psion)
-     or (HasToken(cls, 'ranger') and ranger)
-     or (HasToken(cls, 'sorcerer')  and sorcerer)
-     or (HasToken(cls, 'warlock') and warlock)
-     or (HasToken(cls, 'wizard') and (wizard or wizardProxy))
+        (HasToken(cls, 'bard') and entity.GetClassLevel('Bard') >= 1) or
+        (HasToken(cls, 'artificer') and entity.GetClassLevel('Artificer') >= 1) or
+        (HasToken(cls, 'cleric') and entity.GetClassLevel('Cleric') >= 1) or
+        (HasToken(cls, 'druid') and entity.GetClassLevel('Druid') >= 1) or
+        (HasToken(cls, 'paladin') and entity.GetClassLevel('Paladin') >= 1) or
+        (HasToken(cls, 'ranger') and entity.GetClassLevel('Ranger') >= 1) or
+        (HasToken(cls, 'sorcerer') and entity.GetClassLevel('Sorcerer') >= 1) or
+        (HasToken(cls, 'warlock') and entity.GetClassLevel('Warlock') >= 1) or
+        (HasToken(cls, 'wizard') and (entity.GetClassLevel('Wizard') >= 1 or isWizardProxy))
 
-    return ConditionResult(canUse and true or false)
+    if not canUse then
+        return ConditionResult(false)
+    end
+
+    -- Rule 3: Check spell slot level requirement (Custom: 1 Level lower allowed)
+    local highestSlot = GetHighestSpellSlotLevel(entity, cls, isWizardProxyTag)
+
+    return ConditionResult(highestSlot >= (spellLevel - 1))
 end

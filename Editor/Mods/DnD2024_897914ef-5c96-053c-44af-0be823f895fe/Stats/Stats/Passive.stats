@@ -37,6 +37,19 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and not CreateSorceryPoints();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN,100,1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0db68688-b3ce-408c-85e0-a4695eecf640" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellScrollUsage" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86dd84e2ge406g25feg8fbag707fbd12baf0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0c05d37g1b53g2cb2g912fg504559979b3f" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2a38021bge7c4g0eedgdbf5g331c3221892d" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99999" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

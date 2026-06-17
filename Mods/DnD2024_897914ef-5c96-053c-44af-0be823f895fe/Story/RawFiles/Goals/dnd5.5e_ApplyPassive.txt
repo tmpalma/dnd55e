@@ -60,6 +60,18 @@ THEN
 AddPassive(_Player, "OneSpellWithASpellSlotPerTurn");
 
 
+// SpellScrollUsage
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "SpellScrollUsage", 0)
+THEN
+AddPassive(_Player, "SpellScrollUsage");
+
+
+
 // HeavyArmor
 IF
 DB_Players(_Player)
